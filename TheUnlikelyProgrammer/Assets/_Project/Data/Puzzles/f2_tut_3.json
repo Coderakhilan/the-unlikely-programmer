@@ -1,0 +1,120 @@
+{
+ "id": "f2_tut_3",
+ "title": "Lesson 3 · Aliases",
+ "brief": "Long table names get tiring. Give them short names after FROM and JOIN:\nFROM employees e JOIN departments d ON e.dept_id = d.id\n\nTry it: show the name of every employee whose department is on floor 3 (use the aliases in WHERE).",
+ "successMessage": "OK.",
+ "rewardFlag": "f2_tut_3_done",
+ "orderMatters": false,
+ "unlocksLessons": "alias",
+ "note": "",
+ "user": "maint-0009",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "employees",
+   "columns": [
+    "id",
+    "name",
+    "dept_id"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Sofia Mendes",
+      "10"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Ines Vidal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Marta Quinn",
+      "30"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Owen Pike",
+      "40"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Bram Kowal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "New Starter",
+      "NULL"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "departments",
+   "columns": [
+    "id",
+    "dept_name",
+    "floor"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "10",
+      "Human Resources",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "People & Facilities",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Reception",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "Executive Office",
+      "3"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Server Operations",
+      "3"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Owen Pike"
+   ]
+  }
+ ]
+}

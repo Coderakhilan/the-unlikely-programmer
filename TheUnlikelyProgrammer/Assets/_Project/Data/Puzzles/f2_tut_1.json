@@ -1,0 +1,125 @@
+{
+ "id": "f2_tut_1",
+ "title": "Lesson 1 · Keys",
+ "brief": "Two tables. employees.dept_id holds a number that points at departments.id. That pointer is a FOREIGN KEY; departments.id, unique for every row, is the PRIMARY KEY.\n\nTry it: show the name of every employee whose dept_id is 20 (whatever department that is).",
+ "successMessage": "OK.",
+ "rewardFlag": "f2_tut_1_done",
+ "orderMatters": false,
+ "unlocksLessons": "keys",
+ "note": "",
+ "user": "maint-0009",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "employees",
+   "columns": [
+    "id",
+    "name",
+    "dept_id"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Sofia Mendes",
+      "10"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Ines Vidal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Marta Quinn",
+      "30"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Owen Pike",
+      "40"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Bram Kowal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "New Starter",
+      "NULL"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "departments",
+   "columns": [
+    "id",
+    "dept_name",
+    "floor"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "10",
+      "Human Resources",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "People & Facilities",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Reception",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "Executive Office",
+      "3"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Server Operations",
+      "3"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Ines Vidal"
+   ]
+  },
+  {
+   "cells": [
+    "Bram Kowal"
+   ]
+  }
+ ]
+}

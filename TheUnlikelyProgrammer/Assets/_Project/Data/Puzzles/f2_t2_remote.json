@@ -1,0 +1,98 @@
+{
+ "id": "f2_t2_remote",
+ "title": "Change requests",
+ "brief": "KODEX: If the power comes from across town, how is the building switched over to it?\n\nShow ref, requested and summary for change requests whose system is 'Main power' or 'Northgate' (use IN), oldest first.",
+ "successMessage": "'Whole-building switch-over now done remotely from the Floor 2 breaker panel.'",
+ "rewardFlag": "f2_t2_remote_solved",
+ "orderMatters": true,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "hot.desk.2",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "change_requests",
+   "columns": [
+    "ref",
+    "system",
+    "requested",
+    "summary"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "CR-31",
+      "Main power",
+      "2024-02-11",
+      "Building switched from the city grid to Northgate (Plant Room 2B)."
+     ]
+    },
+    {
+     "cells": [
+      "CR-44",
+      "Lifts",
+      "2024-03-02",
+      "Lift 2 out of service. Still."
+     ]
+    },
+    {
+     "cells": [
+      "CR-52",
+      "Northgate",
+      "2024-06-19",
+      "Remote activation link installed: PLANT-2B line to Floor 2."
+     ]
+    },
+    {
+     "cells": [
+      "CR-57",
+      "Lawn",
+      "2024-07-01",
+      "Replant the G. It looks like a 6."
+     ]
+    },
+    {
+     "cells": [
+      "CR-63",
+      "Main power",
+      "2025-01-08",
+      "Whole-building switch-over now done remotely from the Floor 2 breaker panel."
+     ]
+    },
+    {
+     "cells": [
+      "CR-70",
+      "Coffee",
+      "2025-02-14",
+      "Do not put soup in the coffee machine."
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "CR-31",
+    "2024-02-11",
+    "Building switched from the city grid to Northgate (Plant Room 2B)."
+   ]
+  },
+  {
+   "cells": [
+    "CR-52",
+    "2024-06-19",
+    "Remote activation link installed: PLANT-2B line to Floor 2."
+   ]
+  },
+  {
+   "cells": [
+    "CR-63",
+    "2025-01-08",
+    "Whole-building switch-over now done remotely from the Floor 2 breaker panel."
+   ]
+  }
+ ]
+}

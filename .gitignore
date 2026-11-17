@@ -1,0 +1,38 @@
+# Unity (project lives in TheUnlikelyProgrammer/)
+TheUnlikelyProgrammer/[Ll]ibrary/
+TheUnlikelyProgrammer/[Tt]emp/
+TheUnlikelyProgrammer/[Oo]bj/
+TheUnlikelyProgrammer/[Bb]uild/
+TheUnlikelyProgrammer/[Bb]uilds/
+TheUnlikelyProgrammer/[Ll]ogs/
+TheUnlikelyProgrammer/[Uu]ser[Ss]ettings/
+TheUnlikelyProgrammer/[Mm]emory[Cc]aptures/
+TheUnlikelyProgrammer/[Rr]ecordings/
+
+# IDE / generated project files
+TheUnlikelyProgrammer/.vs/
+TheUnlikelyProgrammer/.idea/
+TheUnlikelyProgrammer/*.csproj
+TheUnlikelyProgrammer/*.sln
+TheUnlikelyProgrammer/*.slnx
+TheUnlikelyProgrammer/*.suo
+TheUnlikelyProgrammer/*.user
+TheUnlikelyProgrammer/*.pidb
+TheUnlikelyProgrammer/.vsconfig
+
+# Build outputs
+*.apk
+*.aab
+*.unitypackage
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local only
+*.zip
+Builds/
+
+__pycache__/
+*.pyc
+TheUnlikelyProgrammer/Assets/InitTestScene*

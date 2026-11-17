@@ -1,0 +1,128 @@
+{
+ "id": "f2_iv_restructure",
+ "title": "Restructure (CONFIDENTIAL)",
+ "brief": "KODEX: The interviewer left her screen unlocked. A file called 'restructure'.\n\nShow name, decision and notes for every row whose decision is NOT 'keep'.",
+ "successMessage": "Bram Kowal's login is switched off at noon. And a lot of things the board would love to read.",
+ "rewardFlag": "f2_iv_restructure_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "s.mendes",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "restructure",
+   "columns": [
+    "name",
+    "department",
+    "decision",
+    "effective",
+    "notes"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Sofia Mendes",
+      "Human Resources",
+      "keep",
+      "-",
+      "Runs the interviews. Keep her busy."
+     ]
+    },
+    {
+     "cells": [
+      "Bram Kowal",
+      "People & Facilities",
+      "sack",
+      "Today, 12:00",
+      "Switch off his login at noon. Don't tell him until his exit meeting."
+     ]
+    },
+    {
+     "cells": [
+      "Everyone on Floor 1",
+      "Administration",
+      "sack",
+      "Next summer",
+      "140 jobs replaced by a cheap call centre. The board has NOT been told."
+     ]
+    },
+    {
+     "cells": [
+      "Staff pension savings",
+      "Finance",
+      "spend",
+      "Already done",
+      "Staff retirement money used to pay for the Northgate plant. The auditors have NOT been told."
+     ]
+    },
+    {
+     "cells": [
+      "Janitors",
+      "People & Facilities",
+      "replace",
+      "Next winter",
+      "Cleaning robots. Trial run on Floor 3."
+     ]
+    },
+    {
+     "cells": [
+      "Marta Quinn",
+      "Reception",
+      "keep",
+      "-",
+      "Knows where everything is. Do not lose her."
+     ]
+    },
+    {
+     "cells": [
+      "Today's job candidates",
+      "Human Resources",
+      "reject",
+      "Today",
+      "The jobs already went to friends. Do the interviews anyway, it looks good."
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Bram Kowal",
+    "sack",
+    "Switch off his login at noon. Don't tell him until his exit meeting."
+   ]
+  },
+  {
+   "cells": [
+    "Everyone on Floor 1",
+    "sack",
+    "140 jobs replaced by a cheap call centre. The board has NOT been told."
+   ]
+  },
+  {
+   "cells": [
+    "Staff pension savings",
+    "spend",
+    "Staff retirement money used to pay for the Northgate plant. The auditors have NOT been told."
+   ]
+  },
+  {
+   "cells": [
+    "Janitors",
+    "replace",
+    "Cleaning robots. Trial run on Floor 3."
+   ]
+  },
+  {
+   "cells": [
+    "Today's job candidates",
+    "reject",
+    "The jobs already went to friends. Do the interviews anyway, it looks good."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "id": "f3_p2_cover",
+ "title": "Task 2 of 3 · Who's covering?",
+ "brief": "TASK 2 of 3 · Who's covering?\nPriya Shah (staff 118) holds today's code, but she's on leave, so whoever covers her holds it. This computer's table, leave: on_leave = who is away, leave_day = which day, cover = who covers. Both are staff_ids; the names are in staff, on the Boardroom PC (long table).\n\nHOW\n1. Link station: make THIS computer read from the Boardroom PC (long table).\n2. Here: JOIN leave to staff on the COVER column (not on_leave).\n\nSHOW: staff_id and name of whoever covers staff 118 on 'Tuesday'.",
+ "successMessage": "Marcus Hale, staff 205. He's covering. So it's his code.",
+ "rewardFlag": "f3_p2_cover_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "exec.assist.1",
+ "needsFlag": "f3_ready_p2",
+ "briefMissing": "TASK 2 of 3 · Who's covering?\nThe leave register. Nothing to look up yet: TASK 1 (Boardroom PC, side table) says whose code it is today.\n(And the key map has to be printed.)",
+ "clues": [
+  {
+   "flag": "f3_keymap",
+   "text": "Key map (printout): rota.holder, leave.on_leave, leave.cover and badges.owner all hold a staff_id (they point at staff.staff_id). code_parts.card holds a badge_no (it points at badges.badge_no)."
+  }
+ ],
+ "tables": [
+  {
+   "name": "staff",
+   "columns": [
+    "staff_id",
+    "name",
+    "title"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "101",
+      "Helena Voss",
+      "Chief Financial Officer"
+     ]
+    },
+    {
+     "cells": [
+      "104",
+      "Graham Pell",
+      "Head of Legal"
+     ]
+    },
+    {
+     "cells": [
+      "109",
+      "Venky Eleven",
+      "Chief Operating Officer"
+     ]
+    },
+    {
+     "cells": [
+      "112",
+      "Rupert Lane",
+      "Chief of Staff"
+     ]
+    },
+    {
+     "cells": [
+      "118",
+      "Priya Shah",
+      "Head of Security Systems"
+     ]
+    },
+    {
+     "cells": [
+      "123",
+      "Dev Okafor",
+      "Executive Assistant"
+     ]
+    },
+    {
+     "cells": [
+      "205",
+      "Marcus Hale",
+      "Network Manager"
+     ]
+    },
+    {
+     "cells": [
+      "207",
+      "Nina Brandt",
+      "IT Director"
+     ]
+    },
+    {
+     "cells": [
+      "210",
+      "Adhil B",
+      "Facilities Director"
+     ]
+    },
+    {
+     "cells": [
+      "214",
+      "Tess Morrow",
+      "Investor Relations"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "rota",
+   "columns": [
+    "rota_day",
+    "holder"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Monday",
+      "207"
+     ]
+    },
+    {
+     "cells": [
+      "Tuesday",
+      "118"
+     ]
+    },
+    {
+     "cells": [
+      "Wednesday",
+      "101"
+     ]
+    },
+    {
+     "cells": [
+      "Thursday",
+      "205"
+     ]
+    },
+    {
+     "cells": [
+      "Friday",
+      "109"
+     ]
+    },
+    {
+     "cells": [
+      "Saturday",
+      "210"
+     ]
+    },
+    {
+     "cells": [
+      "Sunday",
+      "123"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "leave",
+   "columns": [
+    "leave_id",
+    "on_leave",
+    "leave_day",
+    "cover"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "L-31",
+      "101",
+      "Friday",
+      "104"
+     ]
+    },
+    {
+     "cells": [
+      "L-32",
+      "109",
+      "Tuesday",
+      "214"
+     ]
+    },
+    {
+     "cells": [
+      "L-33",
+      "118",
+      "Tuesday",
+      "205"
+     ]
+    },
+    {
+     "cells": [
+      "L-34",
+      "207",
+      "Wednesday",
+      "118"
+     ]
+    },
+    {
+     "cells": [
+      "L-35",
+      "123",
+      "Tuesday",
+      "112"
+     ]
+    },
+    {
+     "cells": [
+      "L-36",
+      "118",
+      "Thursday",
+      "207"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "badges",
+   "columns": [
+    "badge_no",
+    "owner",
+    "status"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "B-0150",
+      "104",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0129",
+      "214",
+      "revoked"
+     ]
+    },
+    {
+     "cells": [
+      "B-0290",
+      "101",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0333",
+      "109",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0355",
+      "112",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0388",
+      "207",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0412",
+      "123",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0441",
+      "118",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0502",
+      "205",
+      "revoked"
+     ]
+    },
+    {
+     "cells": [
+      "B-0601",
+      "210",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0617",
+      "205",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "B-0702",
+      "214",
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "code_parts",
+   "columns": [
+    "part_id",
+    "card",
+    "position",
+    "cipher"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "P-7101",
+      "B-0617",
+      "3",
+      "3"
+     ]
+    },
+    {
+     "cells": [
+      "P-7108",
+      "B-0617",
+      "1",
+      "V"
+     ]
+    },
+    {
+     "cells": [
+      "P-7115",
+      "B-0617",
+      "4",
+      "L"
+     ]
+    },
+    {
+     "cells": [
+      "P-7122",
+      "B-0617",
+      "2",
+      "Q"
+     ]
+    },
+    {
+     "cells": [
+      "P-7129",
+      "B-0502",
+      "3",
+      "W"
+     ]
+    },
+    {
+     "cells": [
+      "P-7136",
+      "B-0502",
+      "1",
+      "K"
+     ]
+    },
+    {
+     "cells": [
+      "P-7143",
+      "B-0502",
+      "4",
+      "R"
+     ]
+    },
+    {
+     "cells": [
+      "P-7150",
+      "B-0502",
+      "2",
+      "8"
+     ]
+    },
+    {
+     "cells": [
+      "P-7157",
+      "B-0441",
+      "3",
+      "X"
+     ]
+    },
+    {
+     "cells": [
+      "P-7164",
+      "B-0441",
+      "1",
+      "H"
+     ]
+    },
+    {
+     "cells": [
+      "P-7171",
+      "B-0441",
+      "4",
+      "T"
+     ]
+    },
+    {
+     "cells": [
+      "P-7178",
+      "B-0441",
+      "2",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "P-7185",
+      "B-0388",
+      "3",
+      "P"
+     ]
+    },
+    {
+     "cells": [
+      "P-7192",
+      "B-0388",
+      "1",
+      "M"
+     ]
+    },
+    {
+     "cells": [
+      "P-7199",
+      "B-0388",
+      "4",
+      "A"
+     ]
+    },
+    {
+     "cells": [
+      "P-7206",
+      "B-0388",
+      "2",
+      "5"
+     ]
+    },
+    {
+     "cells": [
+      "P-7213",
+      "B-0290",
+      "3",
+      "N"
+     ]
+    },
+    {
+     "cells": [
+      "P-7220",
+      "B-0290",
+      "1",
+      "J"
+     ]
+    },
+    {
+     "cells": [
+      "P-7227",
+      "B-0290",
+      "4",
+      "E"
+     ]
+    },
+    {
+     "cells": [
+      "P-7234",
+      "B-0290",
+      "2",
+      "7"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "205",
+    "Marcus Hale"
+   ]
+  }
+ ]
+}

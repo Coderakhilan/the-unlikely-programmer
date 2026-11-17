@@ -1,0 +1,48 @@
+{
+  "_readme": "Text for the first-launch screens (terms, the note; also in Options) and the credits. Edit freely; rich text like <b>bold</b> works. Changing termsVersion makes everyone accept the terms again.",
+  "studio": "INFI",
+  "termsVersion": 1,
+  "terms": [
+    "<b>Terms of Use</b>",
+    "",
+    "The Unlikely Programmer is a single-player game for your personal, non-commercial use. Please don't resell, re-upload or redistribute it.",
+    "",
+    "The game is provided as it is, without any warranty. It's a work of fiction: the companies, people and events in it are made up, and any resemblance to real ones is a coincidence.",
+    "",
+    "The SQL you type runs only inside the game. It never touches a real database or system.",
+    "",
+    "<b>Privacy Policy</b>",
+    "",
+    "The game does not collect, send or share any personal information. There are no accounts, no tracking and no ads, and it never connects to the internet.",
+    "",
+    "Your saves, settings and achievements are stored only on this computer. Deleting the game's save files removes them completely."
+  ],
+  "note": [
+    "Hi, I'm infi. This is my very first game, made without any sort of game dev experience.",
+    "",
+    "To let you be aware, this game has content made by generative AI, particularly assets and music. The game design itself, the narrative, story, characters and dialogue are my work and my direction, and I used AI to assist my development.",
+    "",
+    "Enjoy the game!",
+    "",
+    "<i>infi</i>"
+  ],
+  "credits": [
+    "<size=13>WRITER · DIRECTOR</size>",
+    "<size=22><b>infi</b></size>",
+    "",
+    "<size=13>MUSIC</size>",
+    "<size=22><b>infi</b></size>",
+    "<size=15>and generative AI</size>",
+    "",
+    "<size=13>ASSETS · ART</size>",
+    "<size=22><b>infi</b></size>",
+    "<size=15>and generative AI</size>",
+    "",
+    "<size=13>FONTS</size>",
+    "<size=15>Barlow  ·  JetBrains Mono</size>",
+    "<size=12>SIL Open Font License</size>",
+    "",
+    "",
+    "<size=18>Thanks for playing.</size>"
+  ]
+}

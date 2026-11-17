@@ -1,0 +1,106 @@
+{
+ "id": "f3_tut_1",
+ "title": "Lesson 1 · INSERT",
+ "brief": "Reading is over. This one WRITES.\nINSERT INTO table (columns) VALUES (values) adds a row. Text in quotes, numbers without, same order as the columns.\n\nTry it: add visitor 5, 'Sam Ortiz', status 'in' to visitors.",
+ "successMessage": "OK.",
+ "rewardFlag": "f3_tut_1_done",
+ "orderMatters": false,
+ "unlocksLessons": "insert",
+ "note": "",
+ "user": "maint-0009",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "visitors",
+   "columns": [
+    "id",
+    "name",
+    "status"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Ada Fenn",
+      "in"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Rob Sato",
+      "left"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Mia Holt",
+      "in"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Ivo Marsh",
+      "left"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "archive",
+   "columns": [
+    "id",
+    "name"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "90",
+      "Old Visitor"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "1",
+    "Ada Fenn",
+    "in"
+   ]
+  },
+  {
+   "cells": [
+    "2",
+    "Rob Sato",
+    "left"
+   ]
+  },
+  {
+   "cells": [
+    "3",
+    "Mia Holt",
+    "in"
+   ]
+  },
+  {
+   "cells": [
+    "4",
+    "Ivo Marsh",
+    "left"
+   ]
+  },
+  {
+   "cells": [
+    "5",
+    "Sam Ortiz",
+    "in"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "id": "f0_tut_1",
+ "title": "Lesson 1 \u00b7 Tables and SELECT",
+ "brief": "Data lives in TABLES: rows and columns. The one on this terminal is called staff.\nSELECT picks the columns, FROM picks the table, and * means every column.\n\nTry it: show every column of every row in staff.",
+ "successMessage": "OK.",
+ "rewardFlag": "f0_tut_1_done",
+ "orderMatters": false,
+ "unlocksLessons": "tables,select",
+ "tables": [
+  {
+   "name": "staff",
+   "columns": [
+    "id",
+    "name",
+    "department",
+    "floor",
+    "office"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Linda",
+      "Administration",
+      "1",
+      "Manager's office"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Omar",
+      "Accounts",
+      "1",
+      "Office C"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Priya",
+      "Accounts",
+      "1",
+      "Office D"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Ken",
+      "Records",
+      "1",
+      "Office E"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Grace",
+      "Administration",
+      "1",
+      "Office A"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Maya",
+      "Reception",
+      "0",
+      "Front desk"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Pete",
+      "Reception",
+      "0",
+      "Front desk"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Sofia",
+      "Human Resources",
+      "2",
+      "HR office"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "1",
+    "Linda",
+    "Administration",
+    "1",
+    "Manager's office"
+   ]
+  },
+  {
+   "cells": [
+    "2",
+    "Omar",
+    "Accounts",
+    "1",
+    "Office C"
+   ]
+  },
+  {
+   "cells": [
+    "3",
+    "Priya",
+    "Accounts",
+    "1",
+    "Office D"
+   ]
+  },
+  {
+   "cells": [
+    "4",
+    "Ken",
+    "Records",
+    "1",
+    "Office E"
+   ]
+  },
+  {
+   "cells": [
+    "5",
+    "Grace",
+    "Administration",
+    "1",
+    "Office A"
+   ]
+  },
+  {
+   "cells": [
+    "6",
+    "Maya",
+    "Reception",
+    "0",
+    "Front desk"
+   ]
+  },
+  {
+   "cells": [
+    "7",
+    "Pete",
+    "Reception",
+    "0",
+    "Front desk"
+   ]
+  },
+  {
+   "cells": [
+    "8",
+    "Sofia",
+    "Human Resources",
+    "2",
+    "HR office"
+   ]
+  }
+ ],
+ "user": "maint-0009"
+}

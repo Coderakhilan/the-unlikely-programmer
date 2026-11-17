@@ -1,0 +1,606 @@
+{
+  "entries": [
+    {
+      "id": "f3_arrive",
+      "lines": [
+        "The Executive floor. Been awhile since I was here.",
+        "[worried] I need to do this fast and save Betty."
+      ]
+    },
+    {
+      "id": "f3_arrival_call",
+      "lines": [
+        "Yuvie: Donnie. The Executive floor. Look at you, moving up in the world.",
+        "Yuvie: The deal stands. Overheat the server room and Betty is free.",
+        "Donnie[angry]: Then tell me how I get in.",
+        "Irshad: The door takes a code. A new one every morning, and every morning it belongs to a different member of staff.",
+        "Adi: And it's encrypted! Which means—",
+        "Yuvie: You'll need an executive keycard to decrypt it. Liam is on your floor. By the windows. He has one.",
+        "Donnie[shocked]: Liam. The CEO's son. Will he do it.",
+        "Yuvie: He wants this over as much as you do. Ask nicely or find another way I don't know.",
+        "The line goes dead."
+      ]
+    },
+    {
+      "id": "f3_liam_refuses",
+      "lines": [
+        "Donnie: Liam.",
+        "Liam[angry]: Don't. Don't say my name on this floor. Do you know how many cameras are up here?",
+        "Donnie: Your people say I need your keycard. To decrypt the server room code.",
+        "Liam[angry]: My keycard. On a decryption log. With my name on it. On the day my father's servers cook.",
+        "Liam[angry]: Fuck off, Donnie. Do what you were told and leave me out of it.",
+        "Donnie[angry]: I am doing what I was told. This is the part where I need your card.",
+        "Liam[angry]: One more word and I make one phone call. Guess who it's about.",
+        "Liam: ...Go mop something."
+      ]
+    },
+    {
+      "id": "f3_liam_after",
+      "lines": [
+        "[angry] He's not handing it over. Not if I ask nicely, anyway.",
+        "Something hot. In the face. The lounge vending machine does hot coffee.",
+        "Coffee costs coins. And executives drop change in the plant pots."
+      ]
+    },
+    {
+      "id": "f3_liam_again",
+      "lines": [
+        "Liam[angry]: Are you still here? Go. Mop. Something."
+      ]
+    },
+    {
+      "id": "f3_liam_need_equip",
+      "lines": [
+        "The coffee's in my pocket. Terrible place for coffee. (Press its number to hold it.)"
+      ]
+    },
+    {
+      "id": "f3_coin_1",
+      "lines": [
+        "A coin. Buried in the soil like treasure."
+      ]
+    },
+    {
+      "id": "f3_coin_2",
+      "lines": [
+        "Another one. These people don't pick up anything they drop."
+      ]
+    },
+    {
+      "id": "f3_coin_3",
+      "lines": [
+        "Three coins. That's a coffee."
+      ]
+    },
+    {
+      "id": "f3_plant_empty",
+      "lines": [
+        "Just soil now. Very expensive soil."
+      ]
+    },
+    {
+      "id": "f3_plant_nothing",
+      "lines": [
+        "A plant. Healthier than me."
+      ]
+    },
+    {
+      "id": "f3_vending_short",
+      "lines": [
+        "Hot coffee: three coins. I've got {n}."
+      ]
+    },
+    {
+      "id": "f3_vending_coffee",
+      "lines": [
+        "Hot coffee. Extra hot. Let me take the lid off.",
+        "Not for drinking."
+      ]
+    },
+    {
+      "id": "f3_vending_again",
+      "lines": [
+        "One coffee's plenty. I'm not here for the caffeine."
+      ]
+    },
+    {
+      "id": "f3_vending_idle",
+      "lines": [
+        "Hot drinks and snacks. Executive prices."
+      ]
+    },
+    {
+      "id": "f3_splash",
+      "lines": [
+        "Donnie: Liam. Coffee?",
+        "Liam[angry]: I said f—",
+        "Splash.",
+        "Liam[shocked]: AAAGH! MY FACE! MY— THIS SHIRT IS ITALIAN!",
+        "Liam[angry]: You're DEAD, janitor!",
+        "[worried] Run. The small meeting room round the corner: there's a locker in there, and the door locks from the outside."
+      ]
+    },
+    {
+      "id": "f3_chase_door",
+      "lines": [
+        "Not in there. One way in, one way out, no locker. He'd have me."
+      ]
+    },
+    {
+      "id": "f3_elevator_liam",
+      "lines": [
+        "Stand and wait for the lift doors with him behind me? No."
+      ]
+    },
+    {
+      "id": "f3_liam_in",
+      "lines": [
+        "Liam[angry]: Donnie? I know you're in here."
+      ]
+    },
+    {
+      "id": "f3_liam_trapped",
+      "lines": [
+        "Click.",
+        "Liam[shocked]: ...Did you just lock me in?",
+        "Donnie: You're well aware. Aren't you?",
+        "Liam[angry]: Open this door. Right now.",
+        "Donnie: Keycard. Under the door.",
+        "Liam[angry]: Do you have ANY idea who I am? One call and Betty is dead.",
+        "Donnie: You will turn a janitor into a murderer Liam. I doubt that you even want to be a murderer in the first place.",
+        "Liam[angry]: ...",
+        "Liam: If I give you the card, you let me out. I don't want to be stuck here while you use my keycard.",
+        "Donnie: If you give me the card, I'll think about it.",
+        "A keycard slides out under the door. It's still a bit damp.",
+        "Liam[angry]: Use it once. Do nothing more than what's told. And when this is over, you and I are going to have a conversation.",
+        "Donnie: We'll see..."
+      ]
+    },
+    {
+      "id": "f3_liam_door",
+      "lines": [
+        "Liam[angry]: Donnie? Are you done? I can hear you out there! Open this door!",
+        "Donnie: No."
+      ]
+    },
+    {
+      "id": "f3_caught_liam",
+      "lines": [
+        "You got caught. Liam beats the living crap out of you."
+      ]
+    },
+    {
+      "id": "f3_caught_ceo",
+      "lines": [
+        "The CEO got you. He doesn't stand anyone who betrays him."
+      ]
+    },
+    {
+      "id": "f3_caught_security",
+      "lines": [
+        "Security got you. Betty doesn't have that long."
+      ]
+    },
+    {
+      "id": "f3_terminal_done",
+      "lines": [
+        "INSERT and DELETE. Writing things, and wiping them out.",
+        "KODEX says I won't need them on this floor. It didn't say anything about the next one."
+      ]
+    },
+    {
+      "id": "f3_pc_dead",
+      "lines": [
+        "No power. Dead screen."
+      ]
+    },
+    {
+      "id": "f3_pc_staff",
+      "lines": [
+        "The staff directory. This machine just serves one table, 'staff', to the rest of the floor.",
+        "Nothing to do on it. Other computers can read it, if the link station points them here."
+      ]
+    },
+    {
+      "id": "f3_pc_badges",
+      "lines": [
+        "The badge register. One table, 'badges', served to the rest of the floor.",
+        "Nothing to do on it. Other computers can read it, if the link station points them here."
+      ]
+    },
+    {
+      "id": "f3_p1_done",
+      "lines": [
+        "Priya Shah. Head of Security Systems. Today's code is hers.",
+        "Funny. Her desk looked empty this morning."
+      ]
+    },
+    {
+      "id": "f3_p2_done",
+      "lines": [
+        "Marcus Hale, Network Manager. Covering for Priya, so today it's his code. Lucky Marcus."
+      ]
+    },
+    {
+      "id": "f3_p3_done",
+      "lines": [
+        "V, Q, 3, L. No keypad on earth takes that. It's still scrambled.",
+        "The link station in Executive office A decrypts things. With a keycard."
+      ]
+    },
+    {
+      "id": "f3_link_intro",
+      "lines": [
+        "The link station. Every computer on this floor talks to the network through this one.",
+        "Each machine can be pointed at one other machine. Then it can read that machine's table as well as its own.",
+        "And there's a keycard reader on the side: DECRYPT."
+      ]
+    },
+    {
+      "id": "f3_link_prompt",
+      "lines": [
+        "LINK STATION  ·  Executive network"
+      ]
+    },
+    {
+      "id": "f3_link_which",
+      "lines": [
+        "Which computer?"
+      ]
+    },
+    {
+      "id": "f3_link_target",
+      "lines": [
+        "Point it at:"
+      ]
+    },
+    {
+      "id": "f3_drawer_drive",
+      "lines": [
+        "A pen drive, taped under the drawer. Label: 'KEYS - DO NOT LOSE'.",
+        "Nothing up here prints anything. Executives don't print; they have people.",
+        "HR's printer room. One floor down."
+      ]
+    },
+    {
+      "id": "f3_drawer_empty",
+      "lines": [
+        "Stationery. Very expensive stationery."
+      ]
+    },
+    {
+      "id": "f3_print_keymap",
+      "lines": [
+        "Drive in. Print. The printer, for once in its life, just prints.",
+        "A key map: which column points at which, on every computer on the Executive floor."
+      ]
+    },
+    {
+      "id": "f3_torch",
+      "lines": [
+        "Emergency kit. A torch. Batteries included, for once."
+      ]
+    },
+    {
+      "id": "f3_torch_done",
+      "lines": [
+        "Plasters, a foil blanket and a whistle. I'm not whistling."
+      ]
+    },
+    {
+      "id": "f3_decrypt_no_code",
+      "lines": [
+        "Decrypt what? I haven't got anything to decrypt yet."
+      ]
+    },
+    {
+      "id": "f3_decrypt_no_card",
+      "lines": [
+        "DECRYPT: insert executive keycard.",
+        "Liam's got one."
+      ]
+    },
+    {
+      "id": "f3_decrypt_need_terminal",
+      "lines": [
+        "DECRYPT: 'Operator badge needs server room clearance.'",
+        "My badge. The employee terminal at reception sorts that."
+      ]
+    },
+    {
+      "id": "f3_decrypt_fail",
+      "lines": [
+        "Liam's card in. VQ3L in.",
+        "{music:framed}DECRYPTION KEY: L. ———  ...REVOKED.",
+        "INCIDENT REPORTED: OFFICE OF THE CEO.",
+        "[shocked] Oh, no."
+      ]
+    },
+    {
+      "id": "f3_ceo_alert",
+      "lines": [
+        "CEO[stern]: What the fuck! Liam's keycard is used on my link station. I knew he would pull shit like this",
+        "CEO[angry]: What is he up to though?",
+        "CEO[stern]: Security. Kill the lights on three and lock the stairwell. Nobody leaves this floor with my data.",
+        "CEO[angry]: And if it is my son, I want to see his face when you find him."
+      ]
+    },
+    {
+      "id": "f3_blackout",
+      "lines": [
+        "Clunk. The Executive floor goes dark.",
+        "Donnie[shocked]: He disabled his own son's keycard.",
+        "Donnie: He doesn't trust his own son. ...Bruh.",
+        "[worried] Security on the stairs, and the CEO himself out on the floor.",
+        "If Liam's card is dead, the CEO's own card won't be. And his office is open now. He left in a hurry.",
+        "The link station's on backup power, and nobody's looking in here. This office is safe, at least."
+      ]
+    },
+    {
+      "id": "f3_blackout_torch",
+      "lines": [
+        "Torch on. Quietly."
+      ]
+    },
+    {
+      "id": "f3_blackout_no_torch",
+      "lines": [
+        "I need a torch. The emergency cabinet. Right here in this office."
+      ]
+    },
+    {
+      "id": "f3_hint_dark",
+      "lines": [
+        "Dark: F flicks the torch to lure them away. Hide in plants. Executive office A is safe."
+      ]
+    },
+    {
+      "id": "f3_ceo_card",
+      "lines": [
+        "His keycard. On the desk, under a paperweight shaped like the building.",
+        "Of course it is."
+      ]
+    },
+    {
+      "id": "f3_ceo_desk_empty",
+      "lines": [
+        "A paperweight shaped like the building. Subtle."
+      ]
+    },
+    {
+      "id": "f3_ceo_mail",
+      "lines": [
+        "His laptop's still awake. Inbox open.",
+        "From the Board: 'MagiCorp shares are at 83p. Their tech is fine. They're waiting for a client to fall into their lap.'",
+        "From Helena Voss, CFO: 'If we ever have one bad day, MagiCorp has our clients by the evening. Make sure we never have one.'",
+        "From the analysts: 'MAGI: dormant, not dead. The right boost and it doubles overnight. Possibly more.'"
+      ]
+    },
+    {
+      "id": "f3_ceo_mail_magicorp",
+      "lines": [
+        "[shocked] MagiCorp is just waiting for GyaraCorp to fall over. And I could maybe push it.",
+        "And Ryker's MagiCorp login is still written on my hand."
+      ]
+    },
+    {
+      "id": "f3_ceo_mail_plain",
+      "lines": [
+        "MagiCorp. Waiting for somebody else's bad day. Good luck to them."
+      ]
+    },
+    {
+      "id": "f3_ceo_mail_again",
+      "lines": [
+        "MagiCorp at 83p. Waiting for a push."
+      ]
+    },
+    {
+      "id": "f3_decrypt_update",
+      "lines": [
+        "The CEO's card in. The station hums. And my phone—",
+        "[shocked] ...restarts itself. Now? NOW?"
+      ]
+    },
+    {
+      "id": "f3_after_update",
+      "lines": [
+        "A software update. In a blackout. With the CEO hunting me.",
+        "The call app works now, apparently."
+      ]
+    },
+    {
+      "id": "f3_after_update_aware",
+      "lines": [
+        "[worried] A bank app. MagiCorp at 83p a share. And I know exactly what's about to happen to GyaraCorp."
+      ]
+    },
+    {
+      "id": "f3_decrypt_done",
+      "lines": [
+        "VQ3L, decrypted: 7302.",
+        "Today's server room code."
+      ]
+    },
+    {
+      "id": "f3_decrypt_again",
+      "lines": [
+        "7302. I've got it. The server room's on the right."
+      ]
+    },
+    {
+      "id": "f3_bank_bought",
+      "lines": [
+        "Everything. Betty's college pot. Into a company worth 83p a share.",
+        "[worried] It'd better be worth it."
+      ]
+    },
+    {
+      "id": "f3_server_locked",
+      "lines": [
+        "SERVER ROOM. Authorised personnel. A keypad, and a code that changes every morning.",
+        "I don't have today's."
+      ]
+    },
+    {
+      "id": "f3_server_call",
+      "lines": [
+        "Yuvie: Donnie. You've gone quiet. Where are you?",
+        "Donnie: Outside the server room.",
+        "Yuvie: And? Can you get in?"
+      ]
+    },
+    {
+      "id": "f3_decision_prompt",
+      "lines": [
+        "Tell them the truth?"
+      ]
+    },
+    {
+      "id": "f3_choice_truth",
+      "lines": [
+        "Truth: \"I've got the code. I'm going in.\""
+      ]
+    },
+    {
+      "id": "f3_choice_lie",
+      "lines": [
+        "Lie: \"The code's dead. I can't get in.\""
+      ]
+    },
+    {
+      "id": "f3_truth",
+      "lines": [
+        "Donnie: I've got today's code. I'm going in.",
+        "Yuvie: Good. Ten minutes and it's over. Then Betty goes home.",
+        "Adi: Probably.",
+        "Irshad: Adi.",
+        "Adi: Definitely! Definitely goes home."
+      ]
+    },
+    {
+      "id": "f3_lie",
+      "lines": [
+        "Donnie: The code's wrong. It's dead. I can't get in.",
+        "Yuvie: ...",
+        "Yuvie: Then you'd better find another way, Donnie. Quickly.",
+        "The line goes dead.",
+        "[angry] Seven. Three. Zero. Two."
+      ]
+    },
+    {
+      "id": "f3_server_enter",
+      "lines": [
+        "The door opens."
+      ]
+    },
+    {
+      "id": "f3_door_dark",
+      "lines": [
+        "Not in there. In the dark, with them out here, a room is just a box with me in it."
+      ]
+    },
+    {
+      "id": "f3_elevator_dark",
+      "lines": [
+        "The lift's dead and the stairwell's locked. He thought of everything."
+      ]
+    },
+    {
+      "id": "f3_bin",
+      "lines": [
+        "My spare cart. Every floor has one. Nobody notices a janitor with a cart."
+      ]
+    },
+    {
+      "id": "f3_bin_done",
+      "lines": [
+        "Mops, buckets, bin bags."
+      ]
+    },
+    {
+      "id": "npc_f3_sec",
+      "lines": [
+        "Security: Executive floor. Mind the marble.",
+        "Security: Another day, another very expensive corridor."
+      ]
+    },
+    {
+      "id": "npc_f3_sec_b",
+      "lines": [
+        "Security: Don't touch the art. Any of it. Some of it's the walls.",
+        "Security: Quiet today. I like quiet."
+      ]
+    },
+    {
+      "id": "guard_f3_sec",
+      "lines": [
+        "Security: Hold on. Janitor? Where's your cart?",
+        "Security: No cart, no business up here. Back to the lift."
+      ]
+    },
+    {
+      "id": "npc_f3_assistant",
+      "lines": [
+        "Assistant: He wants the deck by noon. It's eleven fifty-eight.",
+        "Assistant: If anyone asks, I'm in a meeting. I'm always in a meeting."
+      ]
+    },
+    {
+      "id": "guard_f3_assistant",
+      "lines": [
+        "Assistant: Excuse me. Those are executive computers.",
+        "Assistant: Out. Now. Please. Thank you."
+      ]
+    },
+    {
+      "id": "npc_f3_lounge",
+      "lines": [
+        "Executive: If this coffee isn't single origin I'm calling somebody.",
+        "Executive: Do you know what I earn? Neither do I. It's a lot."
+      ]
+    },
+    {
+      "id": "f3_ceo_spot",
+      "lines": [
+        "CEO: THERE you are.",
+        "CEO: Stop right there."
+      ]
+    },
+    {
+      "id": "f3_ceo_taunts",
+      "lines": [
+        "CEO: Liam? Come out and explain yourself.",
+        "CEO: Whoever you are, you're fired. Whatever you are.",
+        "CEO: I built this floor. I know every corner of it.",
+        "CEO: I can hear you breathing. Breathe less expensively."
+      ]
+    },
+    {
+      "id": "f3_sec_spot",
+      "lines": [
+        "Security: Oi! Stop right there!",
+        "Security: Got one!"
+      ]
+    },
+    {
+      "id": "f3_decrypt_need_ceo",
+      "lines": [
+        "Liam's card is dead. The CEO's won't be.",
+        "His office. Top left. Open now."
+      ]
+    },
+    {
+      "id": "f3_hint_locker",
+      "lines": [
+        "Hide in the locker. Liam only sees what's in his cone: wait till he's searching the far end, slip out, lock the door."
+      ]
+    },
+    {
+      "id": "f3_after_update_bank",
+      "lines": [
+        "And there's an INFI Bank app I didn't ask for."
+      ]
+    }
+  ]
+}

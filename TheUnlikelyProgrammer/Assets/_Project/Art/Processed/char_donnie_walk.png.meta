@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 2f153a16b7f47604f94f04d4c2077a69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5403035887021662418
+    second: char_donnie_walk_0
+  - first:
+      213: 1038541631294913904
+    second: char_donnie_walk_1
+  - first:
+      213: -3211078113865583814
+    second: char_donnie_walk_2
+  - first:
+      213: 6210166009913085239
+    second: char_donnie_walk_3
+  - first:
+      213: 7087315551276700019
+    second: char_donnie_walk_4
+  - first:
+      213: -182261172263048221
+    second: char_donnie_walk_5
+  - first:
+      213: 1142153677297098839
+    second: char_donnie_walk_6
+  - first:
+      213: 5967755463285633989
+    second: char_donnie_walk_7
+  - first:
+      213: 3184964765088850695
+    second: char_donnie_walk_8
+  - first:
+      213: 2988548425810869699
+    second: char_donnie_walk_9
+  - first:
+      213: 7601236428002533280
+    second: char_donnie_walk_10
+  - first:
+      213: 4680348406348173161
+    second: char_donnie_walk_11
+  - first:
+      213: 7543729539214403810
+    second: char_donnie_walk_12
+  - first:
+      213: 6309183343044909788
+    second: char_donnie_walk_13
+  - first:
+      213: -7375353768414432361
+    second: char_donnie_walk_14
+  - first:
+      213: 4367579725696442940
+    second: char_donnie_walk_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: char_donnie_walk_down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d43b788001647459c317cf30cd1c81
+      internalID: 691787546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_down_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 345
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e6b089d5166fd4582500aea04cab68
+      internalID: 1011195844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_down_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 345
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52846fff44b904048b4b15fcb54ad8d4
+      internalID: 825324349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_down_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 345
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5507174ad041c2439e0fb89cb7b5c3d
+      internalID: -100736122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e78d5e288965a4780b85b38e6da179
+      internalID: -111851306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_up_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 230
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a228a6997d9c00448fcab65143633f7
+      internalID: 817404502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_up_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 230
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568569334cc5248459d2ffe4127d8746
+      internalID: 1396917606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_up_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 230
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f47d2a80194ce42a8e827c9361bb1b
+      internalID: -1747341749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632f662460d0b8047900c77d06990db4
+      internalID: 36963556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_left_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 115
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5716394cd2584d4bada216abf0d82d6
+      internalID: -1305303207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_left_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 115
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa687ee823363b4cb74174a9f2bc68b
+      internalID: 1271586938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_left_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 115
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84813fb3008adad479bfb81999180958
+      internalID: -169695389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6734320b86461479b5b95d8202ea4d
+      internalID: 1773045442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_right_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87499ddd9d3419b4fb47d8156336e14d
+      internalID: 1783881288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_right_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6876c316781eb47bc1d98bfd1a7afc
+      internalID: -2072738809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_walk_right_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 61
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be46f93e64332d4eb6222a55d03cdd7
+      internalID: 586215126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f2baf0e3a74a3d459e1333995029296
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      char_donnie_walk_0: 5403035887021662418
+      char_donnie_walk_1: 1038541631294913904
+      char_donnie_walk_10: 7601236428002533280
+      char_donnie_walk_11: 4680348406348173161
+      char_donnie_walk_12: 7543729539214403810
+      char_donnie_walk_13: 6309183343044909788
+      char_donnie_walk_14: -7375353768414432361
+      char_donnie_walk_15: 4367579725696442940
+      char_donnie_walk_2: -3211078113865583814
+      char_donnie_walk_3: 6210166009913085239
+      char_donnie_walk_4: 7087315551276700019
+      char_donnie_walk_5: -182261172263048221
+      char_donnie_walk_6: 1142153677297098839
+      char_donnie_walk_7: 5967755463285633989
+      char_donnie_walk_8: 3184964765088850695
+      char_donnie_walk_9: 2988548425810869699
+      char_donnie_walk_down_0: 691787546
+      char_donnie_walk_down_1: 1011195844
+      char_donnie_walk_down_2: 825324349
+      char_donnie_walk_down_3: -100736122
+      char_donnie_walk_left_0: 36963556
+      char_donnie_walk_left_1: -1305303207
+      char_donnie_walk_left_2: 1271586938
+      char_donnie_walk_left_3: -169695389
+      char_donnie_walk_right_0: 1773045442
+      char_donnie_walk_right_1: 1783881288
+      char_donnie_walk_right_2: -2072738809
+      char_donnie_walk_right_3: 586215126
+      char_donnie_walk_up_0: -111851306
+      char_donnie_walk_up_1: 817404502
+      char_donnie_walk_up_2: 1396917606
+      char_donnie_walk_up_3: -1747341749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,100 @@
+{
+ "id": "f1_sw_bookings",
+ "title": "The meeting room",
+ "brief": "KODEX: The employee terminal on this floor is in the meeting room. Is anyone using it?\n\nShow every column for bookings of the 'Meeting room' on 'Tuesday'.",
+ "successMessage": "Linda and Ken have the meeting room all day. The terminal's in there. So that's a problem.",
+ "rewardFlag": "f1_sw_bookings_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "shared.desk.sw",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "room_bookings",
+   "columns": [
+    "room",
+    "day",
+    "booked_by",
+    "purpose"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Meeting room",
+      "Tuesday",
+      "Linda Park",
+      "Quarterly review (all day)"
+     ]
+    },
+    {
+     "cells": [
+      "Meeting room",
+      "Tuesday",
+      "Ken Watts",
+      "Quarterly review (all day)"
+     ]
+    },
+    {
+     "cells": [
+      "Meeting room",
+      "Monday",
+      "Joey Marsh",
+      "Minutes training"
+     ]
+    },
+    {
+     "cells": [
+      "Meeting room",
+      "Friday",
+      "Facilities",
+      "Plant room walkthrough - MOVED to HR"
+     ]
+    },
+    {
+     "cells": [
+      "Office A",
+      "Tuesday",
+      "Grace Lee",
+      "Off sick"
+     ]
+    },
+    {
+     "cells": [
+      "Lounge",
+      "Tuesday",
+      "Joey Marsh",
+      "Working from the lounge"
+     ]
+    },
+    {
+     "cells": [
+      "Office F",
+      "Tuesday",
+      "Tomas Reyes",
+      "Supplier calls"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Meeting room",
+    "Tuesday",
+    "Linda Park",
+    "Quarterly review (all day)"
+   ]
+  },
+  {
+   "cells": [
+    "Meeting room",
+    "Tuesday",
+    "Ken Watts",
+    "Quarterly review (all day)"
+   ]
+  }
+ ]
+}

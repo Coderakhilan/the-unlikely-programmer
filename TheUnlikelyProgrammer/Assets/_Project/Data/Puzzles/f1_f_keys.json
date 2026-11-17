@@ -1,0 +1,73 @@
+{
+ "id": "f1_f_keys",
+ "title": "The spare key",
+ "brief": "KODEX: Manager Linda's office is locked. Procurement logs every key.\n\nShow the holder of the key for door 'Manager office' whose status is 'spare'.",
+ "successMessage": "The spare's on the shelf in the lounge.",
+ "rewardFlag": "f1_f_keys_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "tomas.reyes",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "key_register",
+   "columns": [
+    "key_name",
+    "door",
+    "holder",
+    "status"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "K-01",
+      "Manager office",
+      "Linda Park",
+      "issued"
+     ]
+    },
+    {
+     "cells": [
+      "K-02",
+      "Manager office",
+      "Lounge shelf (top)",
+      "spare"
+     ]
+    },
+    {
+     "cells": [
+      "K-07",
+      "Office C",
+      "Omar Haddad",
+      "issued"
+     ]
+    },
+    {
+     "cells": [
+      "K-08",
+      "Office C",
+      "Joey Marsh (drawer)",
+      "spare"
+     ]
+    },
+    {
+     "cells": [
+      "K-15",
+      "Stationery cupboard",
+      "Tomas Reyes",
+      "issued"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Lounge shelf (top)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "id": "f0_tut_3",
+ "title": "Lesson 3 \u00b7 WHERE",
+ "brief": "WHERE keeps only the rows that match. Numbers need no quotes:  WHERE floor = 1\n\nTry it: show the names of everyone who works on floor 1.",
+ "successMessage": "OK.",
+ "rewardFlag": "f0_tut_3_done",
+ "orderMatters": false,
+ "unlocksLessons": "where",
+ "tables": [
+  {
+   "name": "staff",
+   "columns": [
+    "id",
+    "name",
+    "department",
+    "floor",
+    "office"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Linda",
+      "Administration",
+      "1",
+      "Manager's office"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Omar",
+      "Accounts",
+      "1",
+      "Office C"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Priya",
+      "Accounts",
+      "1",
+      "Office D"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Ken",
+      "Records",
+      "1",
+      "Office E"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Grace",
+      "Administration",
+      "1",
+      "Office A"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Maya",
+      "Reception",
+      "0",
+      "Front desk"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Pete",
+      "Reception",
+      "0",
+      "Front desk"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Sofia",
+      "Human Resources",
+      "2",
+      "HR office"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Linda"
+   ]
+  },
+  {
+   "cells": [
+    "Omar"
+   ]
+  },
+  {
+   "cells": [
+    "Priya"
+   ]
+  },
+  {
+   "cells": [
+    "Ken"
+   ]
+  },
+  {
+   "cells": [
+    "Grace"
+   ]
+  }
+ ],
+ "user": "maint-0009"
+}

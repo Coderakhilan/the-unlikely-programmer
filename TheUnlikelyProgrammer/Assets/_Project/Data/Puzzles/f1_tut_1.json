@@ -1,0 +1,103 @@
+{
+ "id": "f1_tut_1",
+ "title": "Lesson 1 · LIKE",
+ "brief": "LIKE matches a pattern instead of exact text. % means 'anything here', _ means 'exactly one character'.\nWHERE name LIKE 'S%' finds names starting with S.\n\nTry it: show the names of everyone whose role ends in 'Officer'.",
+ "successMessage": "OK.",
+ "rewardFlag": "f1_tut_1_done",
+ "orderMatters": false,
+ "unlocksLessons": "like",
+ "user": "maint-0009",
+ "tables": [
+  {
+   "name": "staff",
+   "columns": [
+    "name",
+    "department",
+    "role",
+    "floor",
+    "start_year"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Sofia Mendes",
+      "Human Resources",
+      "HR Officer",
+      "2",
+      "2017"
+     ]
+    },
+    {
+     "cells": [
+      "Sam Okafor",
+      "Human Resources",
+      "Recruiter",
+      "2",
+      "2021"
+     ]
+    },
+    {
+     "cells": [
+      "Bea Lindqvist",
+      "People & Facilities",
+      "Facilities Lead",
+      "2",
+      "2015"
+     ]
+    },
+    {
+     "cells": [
+      "Bram Kowal",
+      "People & Facilities",
+      "Electrician",
+      "2",
+      "2019"
+     ]
+    },
+    {
+     "cells": [
+      "Saad",
+      "Human Resources",
+      "Payroll",
+      "2",
+      "2020"
+     ]
+    },
+    {
+     "cells": [
+      "Aman L",
+      "Security",
+      "Guard",
+      "0",
+      "2018"
+     ]
+    },
+    {
+     "cells": [
+      "Nadia Farouk",
+      "Security",
+      "Guard",
+      "2",
+      "2022"
+     ]
+    },
+    {
+     "cells": [
+      "Tess Albright",
+      "Human Resources",
+      "Head of HR",
+      "2",
+      "2012"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Sofia Mendes"
+   ]
+  }
+ ]
+}

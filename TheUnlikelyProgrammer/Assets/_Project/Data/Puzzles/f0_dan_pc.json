@@ -1,0 +1,107 @@
+{
+ "id": "f0_dan_pc",
+ "title": "The new face",
+ "brief": "Find everything (every column) about the employee whose role is 'Intern'.",
+ "successMessage": "Ryker. Intern, Engineering. Started this week.",
+ "rewardFlag": "f0_dan_pc_solved",
+ "orderMatters": false,
+ "tables": [
+  {
+   "name": "employees",
+   "columns": [
+    "id",
+    "name",
+    "role",
+    "department",
+    "started"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Dan",
+      "Senior Developer",
+      "Engineering",
+      "2019-03-04"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Maya",
+      "Receptionist",
+      "Reception",
+      "2021-06-14"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Pete",
+      "Receptionist",
+      "Reception",
+      "2022-01-10"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Ryker",
+      "Intern",
+      "Engineering",
+      "2026-11-09"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Linda",
+      "Office Manager",
+      "Administration",
+      "2018-09-01"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Omar",
+      "Accountant",
+      "Administration",
+      "2020-02-17"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Sofia",
+      "HR Officer",
+      "Human Resources",
+      "2017-05-22"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Donald Raymond",
+      "Janitor",
+      "Facilities",
+      "2023-08-01"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "4",
+    "Ryker",
+    "Intern",
+    "Engineering",
+    "2026-11-09"
+   ]
+  }
+ ],
+ "note": "RYKER -\nSELECT = what you want\n*  = everything\nFROM = which table\nWHERE = filter\n\nSELECT * FROM employees\nWHERE role = 'Manager'\n\n(it does NOT speak French) - Dan",
+ "user": "dan.k (Engineering)"
+}

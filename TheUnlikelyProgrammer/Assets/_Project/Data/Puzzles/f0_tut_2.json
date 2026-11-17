@@ -1,0 +1,146 @@
+{
+ "id": "f0_tut_2",
+ "title": "Lesson 2 \u00b7 Picking columns",
+ "brief": "After SELECT, list just the columns you want, separated by commas.\n\nTry it: show only the name and department of everyone in staff (in that order).",
+ "successMessage": "OK.",
+ "rewardFlag": "f0_tut_2_done",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "tables": [
+  {
+   "name": "staff",
+   "columns": [
+    "id",
+    "name",
+    "department",
+    "floor",
+    "office"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Linda",
+      "Administration",
+      "1",
+      "Manager's office"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Omar",
+      "Accounts",
+      "1",
+      "Office C"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Priya",
+      "Accounts",
+      "1",
+      "Office D"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Ken",
+      "Records",
+      "1",
+      "Office E"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Grace",
+      "Administration",
+      "1",
+      "Office A"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "Maya",
+      "Reception",
+      "0",
+      "Front desk"
+     ]
+    },
+    {
+     "cells": [
+      "7",
+      "Pete",
+      "Reception",
+      "0",
+      "Front desk"
+     ]
+    },
+    {
+     "cells": [
+      "8",
+      "Sofia",
+      "Human Resources",
+      "2",
+      "HR office"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Linda",
+    "Administration"
+   ]
+  },
+  {
+   "cells": [
+    "Omar",
+    "Accounts"
+   ]
+  },
+  {
+   "cells": [
+    "Priya",
+    "Accounts"
+   ]
+  },
+  {
+   "cells": [
+    "Ken",
+    "Records"
+   ]
+  },
+  {
+   "cells": [
+    "Grace",
+    "Administration"
+   ]
+  },
+  {
+   "cells": [
+    "Maya",
+    "Reception"
+   ]
+  },
+  {
+   "cells": [
+    "Pete",
+    "Reception"
+   ]
+  },
+  {
+   "cells": [
+    "Sofia",
+    "Human Resources"
+   ]
+  }
+ ],
+ "user": "maint-0009"
+}

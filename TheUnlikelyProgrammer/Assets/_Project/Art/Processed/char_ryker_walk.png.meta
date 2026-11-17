@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 5024a29c33e1b094cb2feaa82d36bc0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1689584611589296694
+    second: char_ryker_walk_0
+  - first:
+      213: 3887080162817046736
+    second: char_ryker_walk_1
+  - first:
+      213: -3373528055285415324
+    second: char_ryker_walk_2
+  - first:
+      213: 560328625708941900
+    second: char_ryker_walk_3
+  - first:
+      213: 8310172998860409137
+    second: char_ryker_walk_4
+  - first:
+      213: 7339584566997387252
+    second: char_ryker_walk_5
+  - first:
+      213: -1478148328391365837
+    second: char_ryker_walk_6
+  - first:
+      213: 1409638292295178911
+    second: char_ryker_walk_7
+  - first:
+      213: 2396901115891646753
+    second: char_ryker_walk_8
+  - first:
+      213: 5335755550896601634
+    second: char_ryker_walk_9
+  - first:
+      213: 1082435476954708883
+    second: char_ryker_walk_10
+  - first:
+      213: 1636529321607154389
+    second: char_ryker_walk_11
+  - first:
+      213: 6914613629986574299
+    second: char_ryker_walk_12
+  - first:
+      213: -935335558254279703
+    second: char_ryker_walk_13
+  - first:
+      213: 3220658335790181032
+    second: char_ryker_walk_14
+  - first:
+      213: 8143289919308107264
+    second: char_ryker_walk_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: char_ryker_walk_down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deca2c84be5aae44b8f3766bff403bc
+      internalID: 2080202858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_down_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 345
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b82d21147c81c04493177cab4147d03
+      internalID: -1687817623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_down_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 345
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d1b4d04748fc54ba4f4c7ada556ef7
+      internalID: -2109940418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_down_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 345
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46484fb0cb6d5d342977fe0859aad93b
+      internalID: 1735144873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1571a51815560e44dbbbe66720e62da0
+      internalID: -101771933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_up_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 230
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a27a8098e4c694f82a6456ba7042a8
+      internalID: 2018382742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_up_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 230
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a589ab64efc14b90344a6fb9d56c9
+      internalID: 122734572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_up_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 230
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389ba9c64b9db5d488fcde1788a15f95
+      internalID: 879127608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037d1309a7e6ecc40b74b1238b7e7c4f
+      internalID: -397550263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_left_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 115
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d02b9957f427649a68a31eaf2428a4
+      internalID: 2039064958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_left_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 115
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd3cbdd877f929419aaa9869afa5c1f
+      internalID: 243887069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_left_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 115
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1954ea0f6080e46b57452dda107041
+      internalID: 45764463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21849ba16788b1d4088a047159de6d91
+      internalID: 1064523831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_right_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfb69dc5523ea648857e95fae1b03e5
+      internalID: -338349356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_right_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a7458a4d2782f4091d574008c83e35
+      internalID: -2091352794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_ryker_walk_right_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609fb30e20a2c0c4cb8da317b8eebdb2
+      internalID: 830970320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b6472d8524267594cb84490ae9822e39
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      char_ryker_walk_0: -1689584611589296694
+      char_ryker_walk_1: 3887080162817046736
+      char_ryker_walk_10: 1082435476954708883
+      char_ryker_walk_11: 1636529321607154389
+      char_ryker_walk_12: 6914613629986574299
+      char_ryker_walk_13: -935335558254279703
+      char_ryker_walk_14: 3220658335790181032
+      char_ryker_walk_15: 8143289919308107264
+      char_ryker_walk_2: -3373528055285415324
+      char_ryker_walk_3: 560328625708941900
+      char_ryker_walk_4: 8310172998860409137
+      char_ryker_walk_5: 7339584566997387252
+      char_ryker_walk_6: -1478148328391365837
+      char_ryker_walk_7: 1409638292295178911
+      char_ryker_walk_8: 2396901115891646753
+      char_ryker_walk_9: 5335755550896601634
+      char_ryker_walk_down_0: 2080202858
+      char_ryker_walk_down_1: -1687817623
+      char_ryker_walk_down_2: -2109940418
+      char_ryker_walk_down_3: 1735144873
+      char_ryker_walk_left_0: -397550263
+      char_ryker_walk_left_1: 2039064958
+      char_ryker_walk_left_2: 243887069
+      char_ryker_walk_left_3: 45764463
+      char_ryker_walk_right_0: 1064523831
+      char_ryker_walk_right_1: -338349356
+      char_ryker_walk_right_2: -2091352794
+      char_ryker_walk_right_3: 830970320
+      char_ryker_walk_up_0: -101771933
+      char_ryker_walk_up_1: 2018382742
+      char_ryker_walk_up_2: 122734572
+      char_ryker_walk_up_3: 879127608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

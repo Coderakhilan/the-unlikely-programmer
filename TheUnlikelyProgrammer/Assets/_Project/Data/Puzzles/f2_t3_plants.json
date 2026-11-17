@@ -1,0 +1,99 @@
+{
+ "id": "f2_t3_plants",
+ "title": "Cleaning rota",
+ "brief": "KODEX: Facilities' cleaning rota. You're the janitor; this is technically your job.\n\nShow area, item and notes for every task that starts with 'Special' (use LIKE).",
+ "successMessage": "The conference room plant needs a 'special clean': staff hide coins in the soil. Somebody's going to need a janitor.",
+ "rewardFlag": "f2_t3_plants_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "hot.desk.3",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "cleaning_rota",
+   "columns": [
+    "area",
+    "item",
+    "task",
+    "notes"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Lobby",
+      "Sofas",
+      "Vacuum",
+      "Candidates leave crumbs. And CVs."
+     ]
+    },
+    {
+     "cells": [
+      "Conference room",
+      "Plant (left of the screen)",
+      "Special clean",
+      "Do NOT tip out the soil. Sift it. Staff keep 'emergency' coins in this one."
+     ]
+    },
+    {
+     "cells": [
+      "Conference room",
+      "Table",
+      "Polish",
+      "Fingerprints from the 9am."
+     ]
+    },
+    {
+     "cells": [
+      "Lobby",
+      "Lawn G",
+      "Trim",
+      "It still looks like a 6."
+     ]
+    },
+    {
+     "cells": [
+      "Long hallway",
+      "Plants",
+      "Water",
+      "Weekly."
+     ]
+    },
+    {
+     "cells": [
+      "Head of HR's door",
+      "Brass plate",
+      "Special clean",
+      "He checks it with a white glove."
+     ]
+    },
+    {
+     "cells": [
+      "Printer room",
+      "Floor",
+      "Sweep",
+      "Forty copies of the same page. Recycle."
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Conference room",
+    "Plant (left of the screen)",
+    "Do NOT tip out the soil. Sift it. Staff keep 'emergency' coins in this one."
+   ]
+  },
+  {
+   "cells": [
+    "Head of HR's door",
+    "Brass plate",
+    "He checks it with a white glove."
+   ]
+  }
+ ]
+}

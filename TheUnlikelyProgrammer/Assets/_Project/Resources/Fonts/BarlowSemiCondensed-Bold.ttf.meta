@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ff258145bb34d15499e1e776c7665ac5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - JetBrains Mono
+  - Segoe UI Symbol
+  - DejaVu Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fc47610e9368997489f6ffc47d6b43a7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  subsetRecipes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

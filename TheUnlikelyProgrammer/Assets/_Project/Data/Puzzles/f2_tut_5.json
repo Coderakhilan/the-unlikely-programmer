@@ -1,0 +1,125 @@
+{
+ "id": "f2_tut_5",
+ "title": "Lesson 5 · LIMIT",
+ "brief": "LIMIT n stops after n rows. With ORDER BY it gives you 'the top n': ORDER BY floor DESC LIMIT 1\n\nTry it: show the dept_name of the two departments with the highest id.",
+ "successMessage": "KODEX: Floor 3 basics, done. The Executive floor is next.",
+ "rewardFlag": "f2_tut_5_done",
+ "orderMatters": true,
+ "unlocksLessons": "limit",
+ "note": "",
+ "user": "maint-0009",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "employees",
+   "columns": [
+    "id",
+    "name",
+    "dept_id"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Sofia Mendes",
+      "10"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Ines Vidal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Marta Quinn",
+      "30"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Owen Pike",
+      "40"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Bram Kowal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "New Starter",
+      "NULL"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "departments",
+   "columns": [
+    "id",
+    "dept_name",
+    "floor"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "10",
+      "Human Resources",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "People & Facilities",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Reception",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "Executive Office",
+      "3"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Server Operations",
+      "3"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Server Operations"
+   ]
+  },
+  {
+   "cells": [
+    "Executive Office"
+   ]
+  }
+ ]
+}

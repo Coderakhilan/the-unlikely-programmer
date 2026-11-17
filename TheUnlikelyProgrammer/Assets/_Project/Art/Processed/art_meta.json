@@ -1,0 +1,241 @@
+{
+  "characters": [
+    {
+      "file": "char_ceo_walk.png",
+      "cell_w": 65,
+      "cell_h": 117,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4275
+    },
+    {
+      "file": "char_dan_walk.png",
+      "cell_w": 59,
+      "cell_h": 116,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4275
+    },
+    {
+      "file": "char_donnie_flash.png",
+      "cell_w": 67,
+      "cell_h": 114,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4291
+    },
+    {
+      "file": "char_donnie_tray.png",
+      "cell_w": 113,
+      "cell_h": 121,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4259
+    },
+    {
+      "file": "char_donnie_walk.png",
+      "cell_w": 61,
+      "cell_h": 115,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4291
+    },
+    {
+      "file": "char_hr_walk.png",
+      "cell_w": 60,
+      "cell_h": 115,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4308
+    },
+    {
+      "file": "char_liam_walk.png",
+      "cell_w": 72,
+      "cell_h": 115,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4164
+    },
+    {
+      "file": "char_npc2_walk.png",
+      "cell_w": 65,
+      "cell_h": 115,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4375
+    },
+    {
+      "file": "char_npc3_walk.png",
+      "cell_w": 63,
+      "cell_h": 114,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4358
+    },
+    {
+      "file": "char_npc_walk.png",
+      "cell_w": 64,
+      "cell_h": 117,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4358
+    },
+    {
+      "file": "char_receptionist_walk.png",
+      "cell_w": 62,
+      "cell_h": 114,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4259
+    },
+    {
+      "file": "char_ryker_walk.png",
+      "cell_w": 64,
+      "cell_h": 115,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4275
+    },
+    {
+      "file": "char_security_walk.png",
+      "cell_w": 66,
+      "cell_h": 116,
+      "cols": 4,
+      "rows": 4,
+      "scale": 0.4308
+    }
+  ],
+  "props": {
+    "props_office_a": [
+      {
+        "name": "desk",
+        "w": 130,
+        "h": 85
+      },
+      {
+        "name": "desk_computer",
+        "w": 131,
+        "h": 107
+      },
+      {
+        "name": "chair",
+        "w": 50,
+        "h": 76
+      },
+      {
+        "name": "filing_cabinet",
+        "w": 42,
+        "h": 85
+      },
+      {
+        "name": "bookshelf",
+        "w": 60,
+        "h": 79
+      },
+      {
+        "name": "plant_small",
+        "w": 40,
+        "h": 53
+      },
+      {
+        "name": "plant_large",
+        "w": 72,
+        "h": 81
+      },
+      {
+        "name": "trash_empty",
+        "w": 33,
+        "h": 46
+      },
+      {
+        "name": "trash_full",
+        "w": 38,
+        "h": 53
+      },
+      {
+        "name": "water_cooler",
+        "w": 33,
+        "h": 87
+      },
+      {
+        "name": "coffee_machine",
+        "w": 33,
+        "h": 61
+      },
+      {
+        "name": "printer",
+        "w": 56,
+        "h": 61
+      },
+      {
+        "name": "whiteboard",
+        "w": 89,
+        "h": 82
+      }
+    ],
+    "props_janitor": [
+      {
+        "name": "cart_empty",
+        "w": 79,
+        "h": 101
+      },
+      {
+        "name": "cart_loaded",
+        "w": 84,
+        "h": 102
+      },
+      {
+        "name": "mop_bucket",
+        "w": 58,
+        "h": 109
+      },
+      {
+        "name": "wet_floor_sign",
+        "w": 53,
+        "h": 70
+      },
+      {
+        "name": "usb_cable",
+        "w": 35,
+        "h": 23
+      },
+      {
+        "name": "flashlight",
+        "w": 35,
+        "h": 24
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "file": "floor0.png",
+      "w": 1966,
+      "h": 1311,
+      "scale": 1.28
+    },
+    {
+      "file": "floor1.png",
+      "w": 1965,
+      "h": 1311,
+      "scale": 1.28
+    },
+    {
+      "file": "floor2.png",
+      "w": 1965,
+      "h": 1311,
+      "scale": 1.28
+    },
+    {
+      "file": "floor3.png",
+      "w": 1965,
+      "h": 1155,
+      "scale": 1.28
+    },
+    {
+      "file": "server.png",
+      "w": 922,
+      "h": 614,
+      "scale": 0.6
+    }
+  ]
+}

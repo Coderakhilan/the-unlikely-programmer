@@ -1,0 +1,200 @@
+{
+  "entries": [
+    { "id": "end_arrive", "lines": [
+      "Racks. Fans. Cold air. Somewhere in here is every secret GyaraCorp has.",
+      "And a desk, top left. One computer. 'GYARADB · MASTER CONTROL'."
+    ]},
+    { "id": "end_exit_ready", "lines": [ "Not yet. I came in here for that computer." ]},
+    { "id": "end_exit_busy", "lines": [ "I'm not leaving now. Not halfway through." ]},
+    { "id": "end_pc_done", "lines": [ "I've done enough to that computer for one lifetime." ]},
+    { "id": "end_d1_lie", "lines": [
+      "Yuvie: Before you start, Donnie. Administration. You lied to us that day.",
+      "Yuvie: We let it go. We've let a lot of things go today. Remember that."
+    ]},
+
+    { "id": "end_acc_call", "lines": [
+      "Yuvie: Donnie. You're in. Good.",
+      "Yuvie: Your final task is too easy. We've sent something to your phone.",
+      "Irshad: A file. Plug the phone into the master console and upload it. It turns off the cooling and tells the fans to have a little rest.",
+      "Adi: The servers get hot. Then they get very hot. Then they get... expensive.",
+      "Donnie[worried]: And Betty?",
+      "Yuvie: Upload it, and Betty walks out of here. You have my word.",
+      "Donnie: Your word. From the people who kidnapped her.",
+      "Yuvie: It's the only word on offer, Donnie."
+    ]},
+    { "id": "end_acc_pc", "lines": [
+      "The console wakes up.",
+      "Just one key and it's over."
+    ]},
+    { "id": "end_acc_shambles", "lines": [
+      "{music:the_final_query}The fans stop. The racks start ticking like an oven warming up.",
+      "Red lights. Every alarm in the building decides it's its turn.",
+      "Donnie[shocked]: ...I think I just set fire to a company."
+    ]},
+    { "id": "end_acc_fall", "lines": [
+      "Yuvie: Donnie. Lovely work. Really.",
+      "Yuvie: Betty's free. She's walking home as we speak.",
+      "Donnie[shocked]: She's... she's okay?",
+      "Yuvie: She's fine. Here's the thing, though. Something this big, somebody has to take the fall.",
+      "Adi: And you're the one standing next to the smoking computer.",
+      "Irshad: Sorry, Donnie. Genuinely.",
+      "Yuvie: Goodbye, Donnie.",
+      "The line goes dead."
+    ]},
+    { "id": "end_acc_walkin", "lines": [
+      "Police: POLICE! Hands where we can see them!",
+      "CEO[angry]: Look at my servers. LOOK at them.",
+      "Liam: Hahaha! Oh, Dad. Your face.",
+      "CEO[stern]: Security found him locked in a meeting room, smelling of coffee. And now this.",
+      "Liam: Don't look at me. I was in a meeting.",
+      "CEO[angry]: You. The janitor. Do you have ANY idea what you've done?",
+      "Donnie: Yes. I got my daughter back.",
+      "CEO[angry]: Arrest him. Get him out of my building."
+    ]},
+
+    { "id": "end_lq_call", "lines": [
+      "Yuvie: Donnie. Where are you?",
+      "Donnie: ...Still outside. Like I said.",
+      "Yuvie: No. You're in the server room.",
+      "Donnie[shocked]: How do you know that? Nobody's following me. I checked.",
+      "Yuvie: You forgot someone. That intern. Ryker.",
+      "Irshad: Dumb as a bag of mice. Very useful, though. His whole job was to make sure you did as you were told.",
+      "Adi: He's been watching your every move in secret and been reporting to us as much as he can.",
+      "Yuvie: And you were doing so well, Donnie. Right up to the last moment.",
+      "Yuvie: We'd send Ryker in to finish the job. But you're behind a locked door, and he can't work a keypad.",
+      "Yuvie: So all our work. All of it. Ruined. Because you lied. And Liam won't wait any longer.",
+      "Yuvie: You need to understand how it feels to lose a fucking contract after all that hardwork Donnie.",
+      "Donnie[shocked]: No. No, wait. I'll do it. I'll do it right now. WAIT.",
+      "{music:just_donnie}Betty[shocked]: DAD! DAD, PLEASE—",
+      "Then nothing.",
+      "Yuvie: Betty is dead. Goodbye, Donnie.",
+      "The line goes dead."
+    ]},
+    { "id": "end_lq_rage", "lines": [
+      "Donnie[shocked]: ...",
+      "Donnie[angry]: No.",
+      "[angry] My Betty... No. I have nothing left.",
+      "[angry] Ahhhhrgh... This fucking company i'm bringing it down to it's knees"
+    ]},
+    { "id": "end_lq_status", "lines": [ "One table. Everything this company is. DELETE it." ]},
+    { "id": "end_lq_refuse", "lines": [
+      "I don't want to read it. I want it GONE.",
+      "No. Not that. DELETE.",
+      "I'm not adding anything to this company. I'm taking it all away.",
+      "DELETE. Everything."
+    ]},
+    { "id": "end_lq_partial", "lines": [ "Not enough. ALL of it." ]},
+    { "id": "end_lq_wiped", "lines": [
+      "0 rows.",
+      "Every client. Every pension. Every lie they ever told. Gone.",
+      "Donnie[worried]: ...It doesn't help. It was never going to help. My betty..."
+    ]},
+    { "id": "end_lq_walkin", "lines": [
+      "Security: Hands up! Away from the console!",
+      "CEO[shocked]: What did you do? What did you DO?",
+      "Liam: Hahahaha! Dad! Dad, look at you!",
+      "CEO[stern]: Security found you locked in a meeting room, smelling of coffee. What were you doin- Ugh I'll deal with you later.",
+      "CEO[angry]: Everything. Thirty years. The whole company, everything I built. It's fucking GONE.",
+      "Liam[shocked]: ...What? Gone? I didn't ask for that much. Wait what's going on.",
+      "CEO[angry]: Arrest him. The janitor. NOW."
+    ]},
+
+    { "id": "end_cap_tease", "lines": [
+      "Donnie[worried]: Wait.",
+      "I feel like I've missed something. Something big.",
+      "Something to do with the CEO's office.",
+      "...Too late now."
+    ]},
+    { "id": "end_cap_tease_ryker", "lines": [
+      "Donnie[worried]: Wait.",
+      "I feel like I've missed something. Something big.",
+      "Something the kidnappers hid from me.",
+      "...Too late now."
+    ]},
+    { "id": "end_cap_call", "lines": [
+      "Yuvie: Donnie. You're in. Good.",
+      "Yuvie: Your final task is too easy. We've sent a file to your phone. Upload it to the master console and the servers cook.",
+      "{music:the_man_behind_the_mop}Donnie: How about we do something else?",
+      "Yuvie: Something else?...I'm listening.",
+      "Donnie: I don't know what Liam is paying you for this job but I have something that's more than anything he can offer.",
+      "Donnie: I've got MagiCorp's database login. I can copy everything GyaraCorp has into MagiCorp. The pension funds, the fake interviews, how they make the products, every client they've got. Then wipe it here.",
+      "Donnie: GyaraCorp's stock goes through the floor. MagiCorp's goes through the roof. And you hear which way the money's moving before anyone else does.",
+      "Irshad: ...That's actually a much better idea.",
+      "Yuvie: And what do you want for it?",
+      "Donnie[angry]: Betty goes home. I go home. Tonight. And you sell out Liam.",
+      "Adi: Ooh.",
+      "Yuvie: ...Liam was milking us for pennies anyway. Fine fuck that guy.",
+      "Yuvie: Use the CEO's keycard on that console. Daddy already thinks his son is up to something. Let him finish the thought.",
+      "Irshad: Anything that still points at you, we'll point at Ryker. He won't notice. He doesn't notice things.",
+      "Yuvie: Copy it all to MagiCorp. Then delete it. All of it. Then Betty comes home.",
+      "The line goes dead."
+    ]},
+    { "id": "end_cap_buy_first", "lines": [
+      "Wait. Before I press anything.",
+      "If GyaraCorp is about to sink and MagiCorp is about to fly... my savings should be in MagiCorp first.",
+      "Phone. INFI Bank. While it's still 83p."
+    ]},
+    { "id": "end_cap_need_stocks", "lines": [ "Shares first. INFI Bank, on my phone. Then this." ]},
+    { "id": "end_cap_status", "lines": [ "CEO keycard accepted. MagiCorp link up (ryker.v). Copy gyaradb into magicorp_inbox, then wipe gyaradb." ]},
+    { "id": "end_cap_wrong_table", "lines": [ "Not into GyaraDB's own table. Into MagiCorp's: magicorp_inbox." ]},
+    { "id": "end_cap_keep_copy", "lines": [ "That's the copy. The copy is the whole point." ]},
+    { "id": "end_cap_copy_first", "lines": [ "Copy first. ALL of it. Then delete. That's the deal." ]},
+    { "id": "end_cap_done", "lines": [
+      "0 rows here. Everything, over there.",
+      "Somewhere, a MagiCorp server just got very interested in its inbox."
+    ]},
+    { "id": "end_cap_office", "lines": [
+      "CEO[shocked]: No. No, no, no.",
+      "CEO[angry]: Everything. Every client, every pension, the product code, the interview programme. Copied to MagiCorp, then wiped from ours.",
+      "Liam[angry]: Your guards dragged me out of a meeting room for this? What's going on?",
+      "CEO[stern]: An executive keycard was used at the master console, four minutes ago. And the keycard was mine",
+      "Liam[shocked]: What? Your keycard. Why dad?",
+      "CEO[angry]: You idiot! You did it with my card. You were at my station with yours all night, and when I shut it off, you stole mine.",
+      "Liam[shocked]: I didn't! I was locked in a meeting room! It was Donnie!",
+      "CEO[stern]: You are a disappointment son! Security. Take him.",
+      "Liam[angry]: It's DONNIE! Not me! DONNIE!"
+    ]},
+    { "id": "end_cap_office_after", "lines": [
+      "CEO[stern]: ...",
+      "CEO: What's a Donnie?"
+    ]},
+
+    { "id": "end_sam_think", "lines": [
+      "{music:the_man_behind_the_mop}Donnie: ...",
+      "They think I'm stuck outside. Ryker's locked in an interview room. Nobody's watching me.",
+      "I bought time. For the first time today, nobody's telling me what to do.",
+      "Donnie[worried]: I could tell the CEO. Everything. He wants whoever's behind this as much as I do.",
+      "He's out on the floor somewhere. So is security."
+    ]},
+    { "id": "end_sam_pc_again", "lines": [ "Not this. The CEO. He's out on the floor somewhere, in the dark." ]},
+    { "id": "end_sam_ceo_barks", "lines": [ "Who's there?", "Liam? Is that you?", "My own floor. In the dark. Unbelievable." ]},
+    { "id": "end_sam_talk", "lines": [
+      "CEO[stern]: You. The janitor. How do you have clearance to be here?",
+      "Donnie: Sir. Please. Two minutes. Then call whoever you like.",
+      "CEO[stern]: ...Two.",
+      "Donnie: It's Liam. He's behind all this.",
+      "CEO[stern]: What?How do you know that? All I know is he used his keycard at my station.",
+      "Donnie[worried]: Because they took my daughter. Betty. Three people in a van, this morning.",
+      "Donnie[worried]: They've been calling me all day asking me to sabotage Gyaracorp. Threatening her life. I wanted to find and tell you.",
+      "Donnie[angry]: They wanted me to wreck your company. The servers, the data, all of it. And Liam is the one who hired them.",
+      "CEO[stern]: ...",
+      "CEO[stern]: My son is definitely capable of it. Especially after the scuffle yesterday.",
+      "CEO[stern]: But you're a janitor I've never met, creeping round my floor in the dark. How do I trust you?",
+      "Donnie: The small meeting room. He's locked in it. Ask him yourself."
+    ]},
+    { "id": "end_sam_interrogate", "lines": [
+      "CEO[angry]: Sit down, Liam.",
+      "Liam[angry]: Dad, this is ridiculous. A janitor locked me in a—",
+      "CEO[angry]: SIT. DOWN.",
+      "CEO[stern]: There's a girl. Betty Raymond. Where is she?",
+      "Liam: I don't know what you're talking about.",
+      "CEO[stern]: You used your card at my station tonight. Liam you know you cannot lie to me. I will know.",
+      "CEO[angry]: Where. Is. She.",
+      "Liam[shocked]: ...",
+      "Liam: ...An old print shop. Calder Street. Behind the bus depot.",
+      "Liam[angry]: They said nobody would get hurt! It was only supposed to make you look bad for like a day!",
+      "CEO[stern]: Hello. Police? Yes. There has been a kidnapping at an old print shop on Calder Street, behind the bus depot. Please rush urgently.",
+      "CEO[stern]: Also send a car to my office. For my son."
+    ]}
+  ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "f1_m_systems",
+ "title": "Main power",
+ "brief": "KODEX: Manager Linda's building systems sheet. Use the cost centre from Office D.\n\nShow every column for the system 'Main power' with that cost_centre.",
+ "successMessage": "Main power: People & Facilities, Plant room 2B, Floor 2. Human Resources.",
+ "rewardFlag": "f1_m_systems_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "linda.park (Office Manager)",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "building_systems",
+   "columns": [
+    "system",
+    "cost_centre",
+    "managed_by",
+    "floor",
+    "room"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Main power",
+      "AD-01",
+      "Administration (until March)",
+      "1",
+      "Riser cupboard"
+     ]
+    },
+    {
+     "cells": [
+      "Main power",
+      "PF-02",
+      "People & Facilities",
+      "2",
+      "Plant room 2B"
+     ]
+    },
+    {
+     "cells": [
+      "Backup generator",
+      "PF-02",
+      "People & Facilities",
+      "2",
+      "Plant room 2B"
+     ]
+    },
+    {
+     "cells": [
+      "Lifts",
+      "PF-02",
+      "People & Facilities",
+      "0",
+      "Lift motor room"
+     ]
+    },
+    {
+     "cells": [
+      "Server cooling",
+      "EX-01",
+      "Executive Office",
+      "3",
+      "Server room"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Main power",
+    "PF-02",
+    "People & Facilities",
+    "2",
+    "Plant room 2B"
+   ]
+  }
+ ]
+}

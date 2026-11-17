@@ -1,0 +1,81 @@
+{
+ "id": "f1_d_budget",
+ "title": "Who pays for the power?",
+ "brief": "KODEX: Budgets show who really owns something.\n\nShow the department, cost_centre and floor for the item 'Building power'.",
+ "successMessage": "Building power is paid by People & Facilities, cost centre PF-02, floor 2.",
+ "rewardFlag": "f1_d_budget_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "priya.nair",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "budget",
+   "columns": [
+    "item",
+    "department",
+    "cost_centre",
+    "floor",
+    "amount"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Office supplies",
+      "Administration",
+      "AD-01",
+      "1",
+      "3200"
+     ]
+    },
+    {
+     "cells": [
+      "Building power",
+      "People & Facilities",
+      "PF-02",
+      "2",
+      "212000"
+     ]
+    },
+    {
+     "cells": [
+      "Lifts",
+      "People & Facilities",
+      "PF-02",
+      "2",
+      "38000"
+     ]
+    },
+    {
+     "cells": [
+      "Coffee",
+      "Administration",
+      "AD-01",
+      "1",
+      "9100"
+     ]
+    },
+    {
+     "cells": [
+      "Executive dining",
+      "Executive Office",
+      "EX-01",
+      "3",
+      "41000"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "People & Facilities",
+    "PF-02",
+    "2"
+   ]
+  }
+ ]
+}

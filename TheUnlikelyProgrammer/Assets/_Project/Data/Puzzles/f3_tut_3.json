@@ -1,0 +1,85 @@
+{
+ "id": "f3_tut_3",
+ "title": "Lesson 3 · DELETE",
+ "brief": "DELETE FROM table WHERE ... removes rows. There is no undo. Without WHERE it removes EVERY row.\nKODEX strongly recommends never running that unless you know exactly what you're doing. (It's on a poster somewhere.)\n\nTry it: delete every visitor whose status is 'left'.",
+ "successMessage": "KODEX: Writing data, done. You won't need it on this floor. Where you're going, you might.",
+ "rewardFlag": "f3_tut_3_done",
+ "orderMatters": false,
+ "unlocksLessons": "delete",
+ "note": "",
+ "user": "maint-0009",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "visitors",
+   "columns": [
+    "id",
+    "name",
+    "status"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Ada Fenn",
+      "in"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Rob Sato",
+      "left"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Mia Holt",
+      "in"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Ivo Marsh",
+      "left"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "archive",
+   "columns": [
+    "id",
+    "name"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "90",
+      "Old Visitor"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "1",
+    "Ada Fenn",
+    "in"
+   ]
+  },
+  {
+   "cells": [
+    "3",
+    "Mia Holt",
+    "in"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "f1_tut_3",
+ "title": "Lesson 3 · NOT",
+ "brief": "NOT flips a condition: WHERE NOT floor = 2, or name NOT LIKE 'S%', or department NOT IN (...).\n\nTry it: show the names of everyone NOT in 'Human Resources'.",
+ "successMessage": "OK.",
+ "rewardFlag": "f1_tut_3_done",
+ "orderMatters": false,
+ "unlocksLessons": "not",
+ "user": "maint-0009",
+ "tables": [
+  {
+   "name": "staff",
+   "columns": [
+    "name",
+    "department",
+    "role",
+    "floor",
+    "start_year"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Sofia Mendes",
+      "Human Resources",
+      "HR Officer",
+      "2",
+      "2017"
+     ]
+    },
+    {
+     "cells": [
+      "Sam Okafor",
+      "Human Resources",
+      "Recruiter",
+      "2",
+      "2021"
+     ]
+    },
+    {
+     "cells": [
+      "Bea Lindqvist",
+      "People & Facilities",
+      "Facilities Lead",
+      "2",
+      "2015"
+     ]
+    },
+    {
+     "cells": [
+      "Bram Kowal",
+      "People & Facilities",
+      "Electrician",
+      "2",
+      "2019"
+     ]
+    },
+    {
+     "cells": [
+      "Saad",
+      "Human Resources",
+      "Payroll",
+      "2",
+      "2020"
+     ]
+    },
+    {
+     "cells": [
+      "Aman L",
+      "Security",
+      "Guard",
+      "0",
+      "2018"
+     ]
+    },
+    {
+     "cells": [
+      "Nadia Farouk",
+      "Security",
+      "Guard",
+      "2",
+      "2022"
+     ]
+    },
+    {
+     "cells": [
+      "Tess Albright",
+      "Human Resources",
+      "Head of HR",
+      "2",
+      "2012"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Bea Lindqvist"
+   ]
+  },
+  {
+   "cells": [
+    "Bram Kowal"
+   ]
+  },
+  {
+   "cells": [
+    "Aman L"
+   ]
+  },
+  {
+   "cells": [
+    "Nadia Farouk"
+   ]
+  }
+ ]
+}

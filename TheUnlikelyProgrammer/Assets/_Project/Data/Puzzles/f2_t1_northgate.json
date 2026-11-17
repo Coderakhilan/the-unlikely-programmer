@@ -1,0 +1,76 @@
+{
+ "id": "f2_t1_northgate",
+ "title": "Site register",
+ "brief": "KODEX: Plant Room 2B is the Northgate plant (thanks, onboarding video). Where is it, exactly?\n\nShow site, name and address for sites whose name contains 'Northgate' and whose type is 'Power generation'.",
+ "successMessage": "Northgate Power Plant: Unit 9, Northgate Industrial Estate, Riverside Road. Plant Room 2B is across town.",
+ "rewardFlag": "f2_t1_northgate_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "hot.desk.1",
+ "needsFlag": "f2_clue_video",
+ "briefMissing": "KODEX: The facilities site register. 'Plant Room 2B' isn't listed by that name: it's a nickname.\n\nSomebody on this floor must have told the new starters what it's really called.",
+ "clues": [],
+ "tables": [
+  {
+   "name": "sites",
+   "columns": [
+    "site",
+    "name",
+    "address",
+    "type"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "S-01",
+      "GyaraCorp Tower",
+      "1 Gyara Plaza, City Centre",
+      "Head office"
+     ]
+    },
+    {
+     "cells": [
+      "S-02",
+      "Northgate Power Plant",
+      "Unit 9, Northgate Industrial Estate, Riverside Road",
+      "Power generation"
+     ]
+    },
+    {
+     "cells": [
+      "S-03",
+      "Northgate Car Park",
+      "Northgate Road (level 2)",
+      "Parking"
+     ]
+    },
+    {
+     "cells": [
+      "S-04",
+      "Eastfield Data Store",
+      "14 Kiln Lane, Eastfield",
+      "Archive"
+     ]
+    },
+    {
+     "cells": [
+      "S-05",
+      "Southbank Canteen Supplies",
+      "Arch 6, Southbank",
+      "Catering"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "S-02",
+    "Northgate Power Plant",
+    "Unit 9, Northgate Industrial Estate, Riverside Road"
+   ]
+  }
+ ]
+}

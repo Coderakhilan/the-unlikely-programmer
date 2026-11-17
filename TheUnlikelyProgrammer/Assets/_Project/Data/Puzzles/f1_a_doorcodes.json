@@ -1,0 +1,76 @@
+{
+ "id": "f1_a_doorcodes",
+ "title": "Office B",
+ "brief": "KODEX: Admin keeps the door codes for the offices. Office B is Joey's.\n\nShow every column for 'Office B' codes whose status is 'active'.",
+ "successMessage": "Office B's code is 3172.",
+ "rewardFlag": "f1_a_doorcodes_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "grace.lee",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "door_codes",
+   "columns": [
+    "office",
+    "code",
+    "set_by",
+    "status"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Office A",
+      "1985",
+      "Linda Park",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "Office B",
+      "8810",
+      "Linda Park",
+      "expired"
+     ]
+    },
+    {
+     "cells": [
+      "Office B",
+      "3172",
+      "Linda Park",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "Office D",
+      "1204",
+      "Linda Park",
+      "expired"
+     ]
+    },
+    {
+     "cells": [
+      "Manager office",
+      "----",
+      "Linda Park",
+      "key only"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Office B",
+    "3172",
+    "Linda Park",
+    "active"
+   ]
+  }
+ ]
+}

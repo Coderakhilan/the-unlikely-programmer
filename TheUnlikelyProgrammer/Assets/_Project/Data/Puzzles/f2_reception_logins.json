@@ -1,0 +1,212 @@
+{
+ "id": "f2_reception_logins",
+ "title": "Duty logins",
+ "brief": "KODEX: The breaker panel wants an authorised login. Reception keeps the duty list: every login on this floor, most of them useless.\n\nFind the ONE login that can switch the plant and show its username and password.\nEvery clue I find is a condition. Combine them all with AND (LIKE and NOT will help).",
+ "successMessage": "i.vidal / Northgate-0914. Ines Vidal, plant engineer, night crew since 2014. Sorry, Ines.",
+ "rewardFlag": "f2_reception_logins_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "reception",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [
+  {
+   "flag": "f2_clue_printer",
+   "text": "Printer room (jammed policy page): the plant switch only takes a login whose role ends in 'Engineer'."
+  },
+  {
+   "flag": "f2_clue_video",
+   "text": "The onboarding video: Northgate was built in 2014 by the Night operations team, who still switch it. Night shift, started 2014."
+  },
+  {
+   "flag": "f2_clue_candidate",
+   "text": "The candidate on the sofa: HR said half the logins on that list are dead. Only the 'active' ones work."
+  },
+  {
+   "flag": "f2_clue_interview",
+   "text": "Interview room file: Bram Kowal is being sacked today. His login dies at noon. Not him."
+  }
+ ],
+ "tables": [
+  {
+   "name": "duty_logins",
+   "columns": [
+    "name",
+    "department",
+    "role",
+    "shift",
+    "start_year",
+    "status",
+    "username",
+    "password"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Bram Kowal",
+      "People & Facilities",
+      "Electrical Engineer",
+      "Night",
+      "2014",
+      "active",
+      "b.kowal",
+      "Sparky14!"
+     ]
+    },
+    {
+     "cells": [
+      "Ines Vidal",
+      "People & Facilities",
+      "Plant Engineer",
+      "Night",
+      "2014",
+      "active",
+      "i.vidal",
+      "Northgate-0914"
+     ]
+    },
+    {
+     "cells": [
+      "Naveen",
+      "People & Facilities",
+      "Plant Engineer",
+      "Day",
+      "2014",
+      "active",
+      "naveen",
+      "naveen2014"
+     ]
+    },
+    {
+     "cells": [
+      "Rhea Patel",
+      "People & Facilities",
+      "Electrical Engineer",
+      "Night",
+      "2016",
+      "active",
+      "r.patel",
+      "Voltage!16"
+     ]
+    },
+    {
+     "cells": [
+      "Tom Ashby",
+      "People & Facilities",
+      "Plant Engineer",
+      "Night",
+      "2014",
+      "suspended",
+      "t.ashby",
+      "letmein"
+     ]
+    },
+    {
+     "cells": [
+      "Gus Ferro",
+      "People & Facilities",
+      "Plant Technician",
+      "Night",
+      "2014",
+      "active",
+      "g.ferro",
+      "Gus4ever"
+     ]
+    },
+    {
+     "cells": [
+      "Sofia Mendes",
+      "Human Resources",
+      "HR Officer",
+      "Day",
+      "2017",
+      "active",
+      "s.mendes",
+      "Hire-Me-17"
+     ]
+    },
+    {
+     "cells": [
+      "Nadia Farouk",
+      "Security",
+      "Guard",
+      "Night",
+      "2022",
+      "active",
+      "n.farouk",
+      "nightwatch"
+     ]
+    },
+    {
+     "cells": [
+      "Aman L",
+      "Security",
+      "Guard",
+      "Night",
+      "2018",
+      "active",
+      "aman.l",
+      "aman9000"
+     ]
+    },
+    {
+     "cells": [
+      "Marta Quinn",
+      "Reception",
+      "Receptionist",
+      "Day",
+      "2019",
+      "active",
+      "m.quinn",
+      "Front-Desk-1"
+     ]
+    },
+    {
+     "cells": [
+      "Leo Brandt",
+      "People & Facilities",
+      "Lift Engineer",
+      "Late",
+      "2014",
+      "active",
+      "l.brandt",
+      "UpAndDown"
+     ]
+    },
+    {
+     "cells": [
+      "Dev Sharma",
+      "People & Facilities",
+      "Network Engineer",
+      "Night",
+      "2015",
+      "left",
+      "d.sharma",
+      "packets"
+     ]
+    },
+    {
+     "cells": [
+      "Owen Pike",
+      "Executive Office",
+      "Systems Engineer",
+      "Day",
+      "2014",
+      "active",
+      "o.pike",
+      "Exec-Owen"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "i.vidal",
+    "Northgate-0914"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+  "_readme": "Illustrated scenes. Each sequence is a list of shots; a shot is an image (file in Art/Processed/cutscenes, empty = black card) and the lines spoken over it. 'Name[expression]: text' shows that person's portrait; a line without a name keeps the last speaker in that shot. Expressions: betty neutral/sad/angry/shocked, liam neutral/drunk/angry/shocked, ceo neutral/smug/stern/angry, donnie neutral/worried/angry/shocked. Kidnappers: Yuvie, Adi, Irshad. Adapted from the author's opening script.",
+  "sequences": [
+    {
+      "id": "intro",
+      "title": "THE UNLIKELY PROGRAMMER",
+      "shots": [
+        {
+          "image": "flashback_opening_of_donnie_s_family",
+          "lines": [
+            "{music:betty_donnie}Betty: That's my family.",
+            "The best anyone could ask for. At least, that's what it used to look like.",
+            "Mum and Dad fell in love young. Neither family was thrilled about it.",
+            "Something about Dad not having much going for him, and Mum throwing away her future.",
+            "Honestly? I never cared. Life was perfect.",
+            "Mum was a software developer at Gyaracorp. Sam Raymond.",
+            "Dad stayed at home. Donald Raymond. He cooked, he cleaned, he walked me to school, he did pretty much everything else.",
+            "I thought that was normal. Other kids thought it was weird."
+          ]
+        },
+        {
+          "image": "sam_s_funeral",
+          "lines": [
+            "Betty[sad]: Then Mum died.",
+            "Everything changed after that.",
+            "Dad had spent years looking after me. Getting back into work wasn't exactly easy.",
+            "Gyaracorp offered him a job in the end. Partly because Mum had worked there for so long.",
+            "Not a fancy developer job. Just a janitor.",
+            "I didn't care. He was doing everything for me, and I love him for that."
+          ]
+        },
+        {
+          "image": "betty_s_friends_make_fun_of_betty",
+          "lines": [
+            "Betty[angry]: My so-called friends at school found it a lot funnier than I did.",
+            "A dad who stays at home was weird. Now a dad who mops floors is a punchline",
+            "And I was the easiest joke in the room."
+          ]
+        },
+        {
+          "image": "betty_takes_an_alternate_route_home",
+          "lines": [
+            "Betty: I usually take the same way to school.",
+            "But some days I couldn't face the jokes about my dad. So I'd take the long way round.",
+            "This was one of those days."
+          ]
+        },
+        {
+          "image": "",
+          "lines": [
+            "{music:the_people_upstairs}Elsewhere..."
+          ]
+        },
+        {
+          "image": "ceo_celebration",
+          "lines": [
+            "Liam: Another year. Another record profit. More contracts, more money, and more reasons for Dad to pat himself on the back.",
+            "Magicorp, meanwhile, is practically on life support. Because of us. Apparently that's a good thing.",
+            "Not that I care. I couldn't tell you what Gyaracorp actually does half the time.",
+            "But I can tell you exactly what I need.",
+            "A new car. Because I totalled the old one. No big deal."
+          ]
+        },
+        {
+          "image": "heated_phone_call_between_liam_and_ceo",
+          "lines": [
+            "Liam[angry]: I need that new car, Dad. I've been asking for weeks.",
+            "CEO[stern]: You crashed a practically new car, Liam.",
+            "Liam: Come on! I'm alright, aren't I?",
+            "CEO: I'm glad you're alright. I'm less glad you had it for six months before you wrapped it round a lamppost.",
+            "Do you have any idea what that costs?",
+            "Liam[angry]: Here we go. It's always about the money.",
+            "CEO: Because you're incapable of understanding what it's worth.",
+            "Liam: You just made a record profit! It's nothing to you.",
+            "CEO[angry]: It's something to me. Because you think every problem goes away if someone throws money at it.",
+            "Liam[shocked]: You're seriously refusing to buy your own son a car?",
+            "CEO[stern]: I'm refusing to buy you a THIRD car in the same year. Take the bus. Take a taxi. I don't care.",
+            "If you actually want something, show up at the office on Monday.",
+            "Liam: Why?",
+            "CEO: Work. I've spoken to the board. It's time you started learning the business, because one day this company will be yours...",
+            "Liam[angry]: Blah, blah, blah. Will I get the car or not? It's always about your stupid company.",
+            "CEO[angry]: I won't let you ruin what I've built. Either you work and buy the car yourself, or you can fuck off.",
+            "Liam[shocked]: Dad? ...He hung up on me.",
+            "Liam[angry]: I hate you, Dad. Keep your company.",
+            "Let's see how much you enjoy running it when things aren't going so well."
+          ]
+        },
+        {
+          "image": "betty_being_kidnapped",
+          "lines": [
+            "{music:the_usual_suspects}Betty[shocked]: LET GO!",
+            "Yuvie: Stop struggling!",
+            "Betty[shocked]: HELP! SOMEBODY!",
+            "Adi: Yuvie, careful! Don't hurt her.",
+            "Yuvie: Then tell her to stop kicking!",
+            "Irshad: Just cooperate, kid. We only need something from your daddy.",
+            "Betty[angry]: WHAT? What do you want from my dad?",
+            "Adi: We need... something from him.",
+            "Betty[angry]: Then go and TALK to him! Let me GO!",
+            "Irshad: ...That's actually not a bad idea.",
+            "Yuvie: Irshad, I swear to God. Throw her in the van before somebody comes."
+          ]
+        },
+        {
+          "image": "",
+          "lines": [
+            "Gyaracorp. Tuesday, 8:02 AM."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending_accomplice",
+      "title": "ENDING  ·  ACCOMPLICE",
+      "shots": [
+        {
+          "image": "betty_returns_safely_accomplice_ending",
+          "lines": [
+            "The kidnappers keep their word.",
+            "A van slows at the end of Betty's street. The door slides open, and then it drives away without her.",
+            "Betty[sad]: What is happening?"
+          ]
+        },
+        {
+          "image": "the_accomplice_ending_donnie_is_arrested",
+          "lines": [
+            "GyaraCorp needs somebody to blame for a burnt-out server room, and Donnie was standing right next to it.",
+            "The kidnappers are never found. Gyaracorp was troubled",
+            "But Donnie gets eight years with Betty visiting every Sunday."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending_last_query",
+      "title": "ENDING  ·  THE LAST QUERY",
+      "shots": [
+        {
+          "image": "the_last_query_ending_donnie_is_devasted_betty_is_dead",
+          "lines": [
+            "The kidnappers saw through the lie. Ryker was their eyes all along.",
+            "Donnie had one query left in him. He used it to delete GyaraCorp.",
+            "It didn't bring her back."
+          ]
+        },
+        {
+          "image": "the_last_query",
+          "lines": [
+            "GyaraCorp collapses within the month. Thirty years, gone in one DELETE.",
+            "Donnie doesn't resist the arrest. There's nothing left to resist for."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending_capitalist",
+      "title": "ENDING  ·  CAPITALIST",
+      "shots": [
+        {
+          "image": "betty_returns_safely_accomplice_ending",
+          "lines": [
+            "The kidnappers keep their side of the deal. Betty is dropped off at the end of her street.",
+            "Liam is arrested, still shouting a name nobody recognises."
+          ]
+        },
+        {
+          "image": "capitalist_ending",
+          "lines": [
+            "GyaraCorp's data turns up in MagiCorp's systems. GyaraCorp's stock plummets. And MagiCorp's through the roof.",
+            "Donnie bought 4,096 shares at 83p. By Friday they're worth a little under nine hundred thousand pounds.",
+            "He hands in his notice by email. Donnie beats the capitalists at their own game."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending_good_samaritan",
+      "title": "ENDING  ·  GOOD SAMARITAN",
+      "shots": [
+        {
+          "image": "good_samaritan_ending_betty_survives",
+          "lines": [
+            "{music:betty_donnie}The police raid an old print shop on Calder Street, behind the bus depot.",
+            "Betty is found safe. The three kidnappers are arrested on the spot. So is Liam, an hour later, in his father's office."
+          ]
+        },
+        {
+          "image": "good_samaritan_ending",
+          "lines": [
+            "CEO: We are grateful Donald for your service. And since you're so skilled...",
+            "CEO: GyaraCorp could use a database engineer. Starting Monday. Proper job. Proper salary. What do you say?",
+            "Donnie: You don't have to sir",
+            "CEO: It's nothing Mr. Raymond. Take it.",
+            "Betty: Dad. Say yes."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "f1_tut_2",
+ "title": "Lesson 2 · IN",
+ "brief": "IN checks against a list, instead of chaining ORs: WHERE floor IN (0, 2)\n\nTry it: show the name and department of everyone in 'Security' or 'People & Facilities', using IN.",
+ "successMessage": "OK.",
+ "rewardFlag": "f1_tut_2_done",
+ "orderMatters": false,
+ "unlocksLessons": "in",
+ "user": "maint-0009",
+ "tables": [
+  {
+   "name": "staff",
+   "columns": [
+    "name",
+    "department",
+    "role",
+    "floor",
+    "start_year"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Sofia Mendes",
+      "Human Resources",
+      "HR Officer",
+      "2",
+      "2017"
+     ]
+    },
+    {
+     "cells": [
+      "Sam Okafor",
+      "Human Resources",
+      "Recruiter",
+      "2",
+      "2021"
+     ]
+    },
+    {
+     "cells": [
+      "Bea Lindqvist",
+      "People & Facilities",
+      "Facilities Lead",
+      "2",
+      "2015"
+     ]
+    },
+    {
+     "cells": [
+      "Bram Kowal",
+      "People & Facilities",
+      "Electrician",
+      "2",
+      "2019"
+     ]
+    },
+    {
+     "cells": [
+      "Saad",
+      "Human Resources",
+      "Payroll",
+      "2",
+      "2020"
+     ]
+    },
+    {
+     "cells": [
+      "Aman L",
+      "Security",
+      "Guard",
+      "0",
+      "2018"
+     ]
+    },
+    {
+     "cells": [
+      "Nadia Farouk",
+      "Security",
+      "Guard",
+      "2",
+      "2022"
+     ]
+    },
+    {
+     "cells": [
+      "Tess Albright",
+      "Human Resources",
+      "Head of HR",
+      "2",
+      "2012"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Bea Lindqvist",
+    "People & Facilities"
+   ]
+  },
+  {
+   "cells": [
+    "Bram Kowal",
+    "People & Facilities"
+   ]
+  },
+  {
+   "cells": [
+    "Aman L",
+    "Security"
+   ]
+  },
+  {
+   "cells": [
+    "Nadia Farouk",
+    "Security"
+   ]
+  }
+ ]
+}

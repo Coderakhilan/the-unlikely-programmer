@@ -1,0 +1,80 @@
+{
+ "id": "f1_b_inbox",
+ "title": "Joey's inbox",
+ "brief": "KODEX: Joey's mail is open. Anything from the people who'd know about the building?\n\nShow the subject and body of every mail whose sender is 'Facilities' or 'Linda Park'.",
+ "successMessage": "Facilities moved to HR as 'People & Facilities'. And Joey has a... reputation.",
+ "rewardFlag": "f1_b_inbox_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "joey.marsh",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "inbox",
+   "columns": [
+    "sender",
+    "subject",
+    "body"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Facilities",
+      "We've moved!",
+      "Facilities is now People & Facilities, run from HR on Floor 2. Power, lifts and the cleaning rota: all requests go to them."
+     ]
+    },
+    {
+     "cells": [
+      "Linda Park",
+      "Meeting etiquette",
+      "Joey. Four bathroom breaks in one meeting. Ken timed them. Ken has a spreadsheet."
+     ]
+    },
+    {
+     "cells": [
+      "Linda Park",
+      "Keys",
+      "Office C's spare key is in your drawer. Stop 'borrowing' Omar's stapler."
+     ]
+    },
+    {
+     "cells": [
+      "Omar Haddad",
+      "Stapler",
+      "I know it was you."
+     ]
+    },
+    {
+     "cells": [
+      "Canteen",
+      "Tuesday special",
+      "Chilli. Sorry in advance."
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "We've moved!",
+    "Facilities is now People & Facilities, run from HR on Floor 2. Power, lifts and the cleaning rota: all requests go to them."
+   ]
+  },
+  {
+   "cells": [
+    "Meeting etiquette",
+    "Joey. Four bathroom breaks in one meeting. Ken timed them. Ken has a spreadsheet."
+   ]
+  },
+  {
+   "cells": [
+    "Keys",
+    "Office C's spare key is in your drawer. Stop 'borrowing' Omar's stapler."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "f1_e_archive",
+ "title": "The plans",
+ "brief": "KODEX: Records keeps the building's paperwork.\n\nShow the contents and location of the boxes whose contents are 'Electrical plans' or 'Generator manual'.",
+ "successMessage": "Both moved to Plant room 2B, on the HR floor.",
+ "rewardFlag": "f1_e_archive_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "ken.watts",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "archive",
+   "columns": [
+    "box",
+    "contents",
+    "location"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "A-12",
+      "Lease agreements",
+      "Shelf 3"
+     ]
+    },
+    {
+     "cells": [
+      "A-19",
+      "Electrical plans",
+      "Moved to Plant room 2B (HR, Floor 2) by Facilities"
+     ]
+    },
+    {
+     "cells": [
+      "A-20",
+      "Generator manual",
+      "Moved to Plant room 2B (HR, Floor 2) by Facilities"
+     ]
+    },
+    {
+     "cells": [
+      "A-31",
+      "Christmas party photos",
+      "Shelf 1 (do not open)"
+     ]
+    },
+    {
+     "cells": [
+      "A-40",
+      "Fire drill records",
+      "Shelf 2"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Electrical plans",
+    "Moved to Plant room 2B (HR, Floor 2) by Facilities"
+   ]
+  },
+  {
+   "cells": [
+    "Generator manual",
+    "Moved to Plant room 2B (HR, Floor 2) by Facilities"
+   ]
+  }
+ ]
+}

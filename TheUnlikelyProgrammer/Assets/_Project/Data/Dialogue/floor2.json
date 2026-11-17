@@ -1,0 +1,729 @@
+{
+  "_readme": "Floor 2 (Human Resources) text. Same rules as floor0/floor1.json: keep the ids; 'Name[expression]: ' sets the speaker; a line with no name is Donnie thinking.",
+  "entries": [
+    {
+      "id": "f2_arrive",
+      "lines": [
+        "Human Resources. Might be the worst floor in the building.",
+        "And a queue on the sofas. Interviews. Poor sods."
+      ]
+    },
+    {
+      "id": "f2_arrival_call",
+      "lines": [
+        "Yuvie: Floor two. You're doing well, Donnie. For a man who mops.",
+        "Donnie[worried]: Let me talk to Betty.",
+        "Adi: She's fine! She's teaching me card tricks.",
+        "Irshad: She's teaching him how to lose.",
+        "Yuvie: Here's the deal. You cut the power. The whole building. Lights, lifts, computers, all of it.",
+        "Yuvie: Do that, and Betty goes home.",
+        "Donnie[angry]: That's it? That's what all this was for?",
+        "Donnie[angry]: I could have done that right at the start. There's a breaker room on this floor. It's one flip of a switch.",
+        "Yuvie: We know about the breaker room.",
+        "Irshad: A breaker cuts one floor. This one. The rest of the building wouldn't even notice.",
+        "Yuvie: The whole building runs off something called Plant Room 2B. You read that name yourself, downstairs.",
+        "Yuvie: Find out what it is, where it is, and how it's switched.",
+        "Adi: And don't get caught by HR. Irshad says HR is worse than prison.",
+        "Irshad: I've done both.",
+        "Donnie[worried]: ...Right."
+      ]
+    },
+    {
+      "id": "f2_hr_warning",
+      "lines": [
+        "[worried] That man doing laps of the floor. Head of HR. He looks at people like they're a rounding error.",
+        "If he sees me out there without my cart, I'm finished. Cart. Closet. Bottom left, if this floor's anything like the others."
+      ]
+    },
+    {
+      "id": "f2_bin",
+      "lines": [
+        "The cart. My old friend. Nobody asks a man with a cart what he's doing."
+      ]
+    },
+    {
+      "id": "f2_bin_done",
+      "lines": [
+        "Mops, bin bags, a single rubber glove. The cart's already out."
+      ]
+    },
+    {
+      "id": "f2_searched",
+      "lines": [
+        "Already been through that."
+      ]
+    },
+    {
+      "id": "f2_pc_t1_done",
+      "lines": [
+        "[shocked] 'Northgate Power Plant. Unit 9, Northgate Industrial Estate, Riverside Road.'",
+        "Plant Room 2B isn't a room. It's a power station across town. They named a power station like a broom cupboard."
+      ]
+    },
+    {
+      "id": "f2_pc_t2_done",
+      "lines": [
+        "'Whole-building switch-over now done remotely from the Floor 2 breaker panel.'",
+        "[worried] The Floor 2 breaker panel. Huh."
+      ]
+    },
+    {
+      "id": "f2_office_progress",
+      "lines": [
+        "There's more on the other tables in here."
+      ]
+    },
+    {
+      "id": "f2_plant_reveal",
+      "lines": [
+        "[angry] The breaker room.",
+        "The BREAKER ROOM. The one I mentioned. On the phone. Out loud. Half an hour ago.",
+        "I said 'breaker room' and three grown kidnappers said 'no, Donnie, that's just one floor'. Wonderful. Fantastic."
+      ]
+    },
+    {
+      "id": "f2_insecure_call",
+      "lines": [
+        "Donnie[angry]: It's the breaker room. Plant Room 2B is the Northgate power station across town, and you switch it from the breaker room. On this floor. Which I said.",
+        "Yuvie: ...",
+        "Irshad: No.",
+        "Adi: No way. That's so insecure. A whole building on one switch next to a mop cupboard?",
+        "Donnie[angry]: It's GyaraCorp. Their password policy is a sticky note.",
+        "Yuvie: Then go and look at it. If it's that easy, someone will have put a lock on it.",
+        "Irshad: Someone always puts a lock on it."
+      ]
+    },
+    {
+      "id": "f2_panel_early",
+      "lines": [
+        "The breaker panel. Floor 2 circuits. Big tempting switches.",
+        "[worried] The kidnappers were right. This does one floor. I'm not plunging HR into darkness for nothing. Tempting, though."
+      ]
+    },
+    {
+      "id": "f2_panel_login_needed",
+      "lines": [
+        "The panel wakes up. 'PLANT-2B SWITCHING. AUTHORISED DUTY LOGIN REQUIRED.'",
+        "Irshad was right. Someone always puts a lock on it.",
+        "A duty login. Reception keeps the duty list on this floor. The rota, the logins, the lot.",
+        "There'll be dozens of them. I'll need to know which one's the right one before I try anything."
+      ]
+    },
+    {
+      "id": "f2_panel_need_login",
+      "lines": [
+        "'AUTHORISED DUTY LOGIN REQUIRED.' The reception computer has the duty list."
+      ]
+    },
+    {
+      "id": "f2_panel_terminal_first",
+      "lines": [
+        "[worried] Hang on. If I touch the power, the employee terminal in the hallway goes dark with it.",
+        "Executive clearance first. Then the switch."
+      ]
+    },
+    {
+      "id": "f2_panel_login",
+      "lines": [
+        "i.vidal. Northgate-0914.",
+        "'LOGIN ACCEPTED. PLANT-2B LINK: ONLINE. SWITCH WHOLE BUILDING? Y / N'",
+        "[shocked] It worked. One switch. The whole building."
+      ]
+    },
+    {
+      "id": "f2_panel_idle",
+      "lines": [
+        "The breaker panel. Humming. Smug."
+      ]
+    },
+    {
+      "id": "f2_reception_before",
+      "lines": [
+        "The reception computer. Visitor badges, rotas, the duty list. Nothing I need. Yet."
+      ]
+    },
+    {
+      "id": "f2_pc_recep_done",
+      "lines": [
+        "One login. Ines Vidal. Plant engineer, night crew, been here since the plant was built.",
+        "Sorry, Ines. I'll put in a good word. Somehow."
+      ]
+    },
+    {
+      "id": "f2_recep_clues_missing",
+      "lines": [
+        "[worried] Too many logins on that list. I'll find out more about who can switch the plant first. KODEX keeps the clues as I find them."
+      ]
+    },
+    {
+      "id": "f2_printer",
+      "lines": [
+        "The printer's jammed on a policy page. 'BUILDING SYSTEMS: SWITCHING BETWEEN GRID AND PLANT 2B REQUIRES A LOGIN WHOSE ROLE ENDS IN \"Engineer\".'",
+        "Printed forty times, by the look of the floor. Someone in HR really wanted that read."
+      ]
+    },
+    {
+      "id": "f2_plant_search",
+      "lines": [
+        "Special clean it is. Sifting the soil, carefully...",
+        "A coin. Just a coin. Somebody's rainy-day fund."
+      ]
+    },
+    {
+      "id": "f2_plant_empty",
+      "lines": [
+        "Just a plant. Soil, leaves, a faint smell of regret."
+      ]
+    },
+    {
+      "id": "f2_projector",
+      "lines": [
+        "The projector's still on. The onboarding video. Let's see what new starters get told.",
+        "Video: Welcome to GyaraCorp! We're a family. A family with a disciplinary procedure.",
+        "Video: Our building runs on clean energy from our very own Northgate plant! Built in 2014 by our founding Night operations team.",
+        "Video: Inside the building we call it 'Plant Room 2B'. Legal said 'our own power station' sounded expensive.",
+        "Video: To this day, only the Night operations team switches Northgate. They're the best. Don't talk to them.",
+        "Video: Now, let's learn about mandatory fun."
+      ]
+    },
+    {
+      "id": "f2_projector_again",
+      "lines": [
+        "Mandatory fun. Second viewing. Still mandatory."
+      ]
+    },
+    {
+      "id": "f2_candidate_hungry",
+      "lines": [
+        "Candidate: Sorry, are you staff? I've been here since seven. Nobody's offered me a glass of water.",
+        "Candidate: If I don't eat something I'm going to faint in that interview and they'll write 'fainted' on my form.",
+        "Candidate: Crisps. Anything. I'll owe you."
+      ]
+    },
+    {
+      "id": "f2_candidate_need_equip",
+      "lines": [
+        "I've got crisps. I should have them in hand to hand them over."
+      ]
+    },
+    {
+      "id": "f2_candidate_thanks",
+      "lines": [
+        "Candidate: Oh, you absolute legend. Salt and vinegar. I'd hire you.",
+        "Candidate: Listen, while I was waiting I heard the HR lot by the desk. Arguing about the duty list.",
+        "Candidate: One of them said half the logins on it are dead. 'Anyone suspended or gone still shows up. Only the active ones actually work.'",
+        "Candidate: Then they talked about sacking someone at lunchtime and laughed. Do you think that's a red flag?",
+        "Donnie: It's a whole flag shop.",
+        "[neutral] Only the 'active' logins work. Good to know."
+      ]
+    },
+    {
+      "id": "f2_candidate_done",
+      "lines": [
+        "Candidate: Wish me luck. Actually don't, I've heard the HR lot laughing."
+      ]
+    },
+    {
+      "id": "f2_pc_iv_done",
+      "lines": [
+        "[shocked] Bram Kowal is being sacked today. His login gets switched off at noon. So it's not his.",
+        "And the rest of this file...",
+        "Everyone on Floor 1, sacked and replaced by a cheap call centre. The board hasn't been told.",
+        "The staff's pension savings, quietly spent on the power plant. The auditors haven't been told.",
+        "And the candidates on the sofas? The jobs went to friends weeks ago. The interviews are just for show.",
+        "[angry] If this got out, GyaraCorp would be in court by Friday.",
+        "I'm keeping a copy. Insurance."
+      ]
+    },
+    {
+      "id": "f2_flashlight",
+      "lines": [
+        "A torch. Heavy, rubber, the good kind. Every janitor's best friend after the mop."
+      ]
+    },
+    {
+      "id": "f2_terminal_dead",
+      "lines": [
+        "Dead. No power, no terminal."
+      ]
+    },
+    {
+      "id": "f2_terminal_done",
+      "lines": [
+        "Clearance for the Executive floor. JOINs. Tables that point at other tables. I'm basically IT now.",
+        "Now: the breaker room."
+      ]
+    },
+    {
+      "id": "f2_decision_call",
+      "lines": [
+        "Yuvie: The panel lit up on your end, didn't it? We can hear it humming.",
+        "Yuvie: So. Can you switch the whole building from there or not?"
+      ]
+    },
+    {
+      "id": "f2_decision_prompt",
+      "lines": [
+        "[worried] (Tell them the truth?)"
+      ]
+    },
+    {
+      "id": "f2_choice_truth",
+      "lines": [
+        "Yes. One switch, the whole building. It's ready."
+      ]
+    },
+    {
+      "id": "f2_choice_lie",
+      "lines": [
+        "No. It's locked. I can't do it."
+      ]
+    },
+    {
+      "id": "f2_truth",
+      "lines": [
+        "Donnie[worried]: Yes. I can trip the whole building. It's ready.",
+        "Yuvie: Go ahead do it.",
+        "Donnie[worried]: Okay i did it. It's loading my request.",
+        "Adi: Liam's going to be so happy! His dad's whole building, dark, on a Tuesday!",
+        "Irshad: Adi.",
+        "Adi: What?",
+        "Donnie[shocked]: Liam? The CEO's son? He's behind this?",
+        "Yuvie: ...Fine. Yes. Liam wants his father's empire to have the worst day of its life. One day of chaos. That's the whole job.",
+        "Yuvie: And thank you, Donnie. We'll take it from here.",
+        "Irshad: Lights out.",
+        "Yuvie: Oh, and Donnie? Someone has to have done this. And you're standing next to the switch.",
+        "Yuvie: Security's been sent an anonymous tip about a janitor on Floor 2."
+      ]
+    },
+    {
+      "id": "f2_lie",
+      "lines": [
+        "Donnie[worried]: No. It's locked. I can't do it.",
+        "Yuvie: Hm.",
+        "Adi: Liam's not going to like that. Liam REALLY wanted his dad's building dark today.",
+        "Irshad: Adi.",
+        "Adi: What? Oh. Oh no.",
+        "Donnie[shocked]: Liam? The CEO's son? He's behind this?",
+        "Yuvie: Liam wants his father's empire to have one very bad day. That's all. And you, Donnie, are lying to me.",
+        "Yuvie: Remember we said someone was keeping an eye on you? He just texted. You found the duty login.",
+        "{music:the_intern}Yuvie: Dan's new trainee. Ryker.",
+        "Donnie[shocked]: Ryker? That dumb intern?",
+        "Yuvie: He was just playing dumb.",
+        "Yuvie: You've stopped following orders, Donnie. So we're done with you.",
+        "Yuvie: Ryker's coming up to finish you. And once you're gone, nobody needs Betty either.",
+        "Irshad: That's not a figure of speech.",
+        "Donnie[shocked]: Wait. WAIT—",
+        "The line goes dead."
+      ]
+    },
+    {
+      "id": "f2_ryker_fire",
+      "lines": [
+        "Ryker: FIRE! FIRE ON FLOOR TWO!",
+        "Ryker: Everybody out! Stairs, now! Leave your bags!",
+        "Ryker: And if anyone sees the janitor... tell him Ryker's looking for him."
+      ]
+    },
+    {
+      "id": "f2_power_cut_lie",
+      "lines": [
+        "Click. Clunk. Darkness.",
+        "[worried] The torch. There was one on a table in the long hallway.",
+        "The interview room locks from the outside. If I can get Ryker in there...",
+        "He won't come over that side by himself. I'll have to lead him with the torch, one flash at a time."
+      ]
+    },
+    {
+      "id": "f2_dark_truth",
+      "lines": [
+        "Clunk. Every light in the building, gone.",
+        "[worried] And security is on its way up for the janitor next to the switch.",
+        "The torch from the hallway table. Then the elevator. Quietly."
+      ]
+    },
+    {
+      "id": "f2_hint_dark",
+      "lines": [
+        "F: flash the torch where you're facing (anyone close enough to see it comes to look). E at a locker or big plant: hide."
+      ]
+    },
+    {
+      "id": "f2_ryker_in",
+      "lines": [
+        "[shocked] He's gone in. The door. NOW."
+      ]
+    },
+    {
+      "id": "f2_ryker_trapped",
+      "lines": [
+        "Ryker: Donnie? Is that you? Did you just LOCK me in?",
+        "Donnie[angry]: It locks from the outside. You'd know if you'd ever had a real interview.",
+        "Ryker: Very funny. Open the door, Donnie.",
+        "Donnie[angry]: You came up here to kill me.",
+        "Ryker: It's not personal. Liam pays well. Open the door and we'll call it even.",
+        "Donnie[angry]: No.",
+        "Ryker: Donnie.",
+        "Donnie[angry]: No. Sit in there and think about what you almost did.",
+        "Ryker: Fine. I'll call them myself.",
+        "Ryker: ...",
+        "Ryker: Oh, you're joking. Dead. My phone's dead. I spent all morning texting them about you.",
+        "Ryker: Okay. Okay. Listen. You're calling them anyway, right? Tell them something for me.",
+        "Ryker: Tell them I got into MagiCorp. The competition. They're going under, but one small misstep from Gyaracorp and that's all they need.",
+        "Ryker: Tell Liam I got their admin login. 'm.root', password 'Hocus-Pocus-77'. He'll know what it's worth. Just make sure I get paid.",
+        "Ryker: ...",
+        "Ryker: Please Donnie tell them.",
+        "Donnie: m.root. Hocus-Pocus-77. Got it.",
+        "Ryker: You'll tell them though, yeah? Donnie?",
+        "[neutral] Not a chance. Nobody hears about this. That's my card now, not his."
+      ]
+    },
+    {
+      "id": "f2_deal_lie",
+      "lines": [
+        "{music:stop}{music:once:call}Donnie dials the number. It rings once.",
+        "Yuvie: Ryker? Is it done?",
+        "Donnie[angry]: It's Donnie.",
+        "Yuvie: ...",
+        "Adi: He's ALIVE? Ryker had one job!",
+        "Yuvie: Well. That's a shame. Because I was just about to tell you that we're killing Betty.",
+        "Donnie[shocked]: Don't. Don't you touch her.",
+        "Irshad: (laughs)",
+        "Yuvie: Or what, Donnie? What are you going to do? Mop at us?",
+        "Donnie[angry]: I've got GyaraCorp's restructure file.",
+        "Donnie[angry]: Hundreds of people about to be sacked behind the board's back. The staff's pension money, quietly spent. Fake job interviews.",
+        "Donnie[angry]: Touch Betty and every newspaper in the country gets it. With Liam's name on top.",
+        "Irshad: ...",
+        "Adi: Oh, that's bad. That's really bad.",
+        "Yuvie: Liam wanted to ruin his father's DAY, Donnie. Not burn the whole company down. He still has to inherit it.",
+        "Donnie[angry]: Then let my daughter go.",
+        "Yuvie: ...",
+        "Yuvie: Let's meet in the middle.",
+        "Yuvie: Liam says one floor going dark is nothing. His father won't even hear about it until Friday.",
+        "Yuvie: He wants something that actually stings. Something with a price tag.",
+        "Irshad: The server room. Top floor.",
+        "Yuvie: Overheat it. Cook the servers. GyaraCorp spends a fortune replacing them, and Daddy has to explain it to the board.",
+        "Yuvie: Do that, and Betty goes home. You have my word.",
+        "Donnie[worried]: Your word. The people who kidnapped my daughter.",
+        "Yuvie: It's the only one on offer.",
+        "Yuvie: Anything else we should know, Donnie?",
+        "[worried] I should keep that to myself...",
+        "Donnie[neutral]: No. Nothing.",
+        "Donnie[angry]: Deal. I'm putting the lights back on, and I'm going up."
+      ]
+    },
+    {
+      "id": "f2_power_on_lie",
+      "lines": [
+        "Clunk. Lights. Somewhere behind a locked door, Ryker kicks a filing cabinet.",
+        "The Executive floor. And then the server room."
+      ]
+    },
+    {
+      "id": "f2_deal_truth",
+      "lines": [
+        "The phone buzzes. Unknown number.",
+        "Yuvie: How have you still not been caught yet.",
+        "Donnie[angry]: You framed me.",
+        "Yuvie: We gave you a reason to keep moving.",
+        "Yuvie: And now we have a problem. I thought it was done Donnie but Liam isn't happy.",
+        "Adi: He said, and I quote, 'Dad will just take the afternoon off.'",
+        "Donnie[angry]: Here's my problem. I've got GyaraCorp's restructure file.",
+        "Donnie[angry]: Hundreds of people about to be sacked behind the board's back. The staff's pension money, quietly spent. Fake job interviews.",
+        "Donnie[angry]: Call off security, or every newspaper in the country gets it. With Liam's name on top.",
+        "Irshad: ...He's got us.",
+        "Yuvie: Liam wanted to ruin his father's day, Donnie. Not the whole company. He still has to inherit it.",
+        "Donnie[angry]: Then let my daughter go.",
+        "Yuvie: ...",
+        "Yuvie: Let's meet in the middle.",
+        "Yuvie: Security gets a second call. False alarm, a fault at the plant. And the lights come back on.",
+        "Yuvie: Then you do one more thing for us. Something that actually stings.",
+        "Irshad: The server room. Top floor.",
+        "Yuvie: Overheat it. Cook the servers. GyaraCorp spends a fortune replacing them.",
+        "Yuvie: Do that, and Betty goes home.",
+        "Donnie[worried]: ...Fine. Deal."
+      ]
+    },
+    {
+      "id": "f2_power_on_truth",
+      "lines": [
+        "The lights come back on, floor by floor. The elevator dings like nothing happened.",
+        "The Executive floor. And then the server room."
+      ]
+    },
+    {
+      "id": "f2_elevator_dark",
+      "lines": [
+        "No power, no elevator. And I'm not going anywhere until this is done."
+      ]
+    },
+    {
+      "id": "f2_door_dark",
+      "lines": [
+        "No time for rooms. If I get cornered in there, that's it."
+      ]
+    },
+    {
+      "id": "f2_caught_hr",
+      "lines": [
+        "'You are not on my list.' Head of HR walks you to the exit. Very politely. Very firmly."
+      ]
+    },
+    {
+      "id": "f2_caught_ryker",
+      "lines": [
+        "Ryker got you. He'll take your badge, your name, your place in this building. And you know what happens to Betty."
+      ]
+    },
+    {
+      "id": "f2_caught_security",
+      "lines": [
+        "Security pins you to the carpet. You have been framed."
+      ]
+    },
+    {
+      "id": "npc_f2_hr",
+      "lines": [
+        "Walk with purpose. Purpose is billable.",
+        "I remember every face on this floor.",
+        "Smile. It's in your contract."
+      ]
+    },
+    {
+      "id": "npc_f2_recep",
+      "lines": [
+        "Interviews are in the room on the left. Please wait on the sofas.",
+        "Visitor? Badge? No? Janitor. Carry on.",
+        "If you're looking for the printer, it's in a mood."
+      ]
+    },
+    {
+      "id": "guard_f2_recep",
+      "lines": [
+        "Excuse me. Reception's computer is for reception.",
+        "That screen isn't for you, love."
+      ]
+    },
+    {
+      "id": "npc_f2_wait_a",
+      "lines": [
+        "Third interview this week. This one has a lawn.",
+        "They said 'business casual'. I don't know what that means."
+      ]
+    },
+    {
+      "id": "npc_f2_wait_b",
+      "lines": [
+        "I've prepared an answer for 'greatest weakness'. It's 'honesty'.",
+        "Do you think they'll ask about the gap in my CV? It's a big gap."
+      ]
+    },
+    {
+      "id": "npc_f2_wait_c",
+      "lines": [
+        "I got here an hour early. I regret it.",
+        "Is the G in the lawn meant to be a G?"
+      ]
+    },
+    {
+      "id": "npc_f2_wait_d",
+      "lines": [
+        "I'm here for the 'Happiness Officer' role.",
+        "Shh. I'm visualising."
+      ]
+    },
+    {
+      "id": "npc_f2_interviewer",
+      "lines": [
+        "Where do you see yourself in five years? Not here, ideally.",
+        "Excuse me, we're mid-interview."
+      ]
+    },
+    {
+      "id": "guard_f2_interviewer",
+      "lines": [
+        "Sorry, this is a confidential interview.",
+        "Out, please. We're discussing his weaknesses."
+      ]
+    },
+    {
+      "id": "npc_f2_iv_candidate",
+      "lines": [
+        "My greatest strength is that I'm a perfectionist. I'm sorry.",
+        "Is the janitor part of the interview?"
+      ]
+    },
+    {
+      "id": "npc_f2_office",
+      "lines": [
+        "Don't touch the hot desks. They're hot.",
+        "Did you see the restructure memo? Nobody's seen the restructure memo."
+      ]
+    },
+    {
+      "id": "guard_f2_office",
+      "lines": [
+        "That's not your desk.",
+        "Hands where I can see them, mop man."
+      ]
+    },
+    {
+      "id": "npc_f2_office_a",
+      "lines": [
+        "We had a meeting about having fewer meetings.",
+        "I've been 'circling back' since March."
+      ]
+    },
+    {
+      "id": "npc_f2_office_b",
+      "lines": [
+        "My performance review says 'present'. Just 'present'.",
+        "Shh, I'm pretending to type."
+      ]
+    },
+    {
+      "id": "npc_f2_printer",
+      "lines": [
+        "It's printed the same page forty times. I only wanted one.",
+        "Don't make eye contact with it."
+      ]
+    },
+    {
+      "id": "npc_f2_conf",
+      "lines": [
+        "Someone left the onboarding video on. It's been looping since nine.",
+        "If I watch 'mandatory fun' once more, I'm resigning."
+      ]
+    },
+    {
+      "id": "npc_f2_hall",
+      "lines": [
+        "My locker's been jammed since 2019. I just live with it.",
+        "The terminal at the end table? Nobody uses that. It just hums."
+      ]
+    },
+    {
+      "id": "npc_f2_lift",
+      "lines": [
+        "Lift's slow today. It's slow every day.",
+        "Going up? No? Nobody ever is."
+      ]
+    },
+    {
+      "id": "guard_sec",
+      "lines": [
+        "Hey! Janitor! Stop!",
+        "Got him! Over here!",
+        "Torch on him!"
+      ]
+    },
+    {
+      "id": "hr_spot",
+      "lines": [
+        "You! You're not on my list!",
+        "Stop right there. Who signed off on you?",
+        "I'll need your name, your badge, and your resignation."
+      ]
+    },
+    {
+      "id": "ryker_spot",
+      "lines": [
+        "There you are.",
+        "Gotcha, Donnie.",
+        "Run, then!"
+      ]
+    },
+    {
+      "id": "f2_pc_t3_done",
+      "lines": [
+        "'Conference room plant: special clean. Do NOT tip out the soil. Staff keep emergency coins in this one.'",
+        "Special cleaning. Finally, a puzzle for a janitor."
+      ]
+    },
+    {
+      "id": "f2_pc_t4_done",
+      "lines": [
+        "Interview room lock code: 7341. And it locks from the OUTSIDE.",
+        "[worried] Who designs an interview room like that? HR, that's who.",
+        "I'll remember that one."
+      ]
+    },
+    {
+      "id": "f2_plant_nothing",
+      "lines": [
+        "Nice plant. I'll give it a wipe some other time."
+      ]
+    },
+    {
+      "id": "f2_vending_coin",
+      "lines": [
+        "Coin in. The machine thinks about it, like a bouncer.",
+        "Crisps. Salt and vinegar. A hungry man upstairs is about to love me."
+      ]
+    },
+    {
+      "id": "f2_lock_no_code",
+      "lines": [
+        "[worried] The lock wants a code. I don't have it.",
+        "Somewhere on this floor there's a list of door codes. Too late now."
+      ]
+    },
+    {
+      "id": "f2_panel_office_first",
+      "lines": [
+        "[worried] Hold on. Before I flip anything I want every card I can get.",
+        "There's still a computer in that open office I haven't read."
+      ]
+    },
+    {
+      "id": "f2_floor3_blocked",
+      "lines": [
+        "Not yet. The job on this floor comes first. Betty first, then the Executive floor."
+      ]
+    },
+    {
+      "id": "f2_ryker_fire_donnie",
+      "lines": [
+        "Donnie[shocked]: That's Ryker's voice. He's here already.",
+        "Donnie[angry]: Clearing the floor so there's nobody to see what he does to me.",
+        "Donnie[angry]: Fine. If I can't see, he can't see either.",
+        "Donnie[angry]: The panel. Kill this floor's lights."
+      ]
+    },
+    {
+      "id": "f2_power_cut_lie_torch",
+      "lines": [
+        "Click. Clunk. Darkness.",
+        "[worried] Good thing I grabbed the torch.",
+        "The interview room locks from the outside. If I can get Ryker in there...",
+        "He won't come over that side by himself. I'll have to lead him with the torch, one flash at a time."
+      ]
+    },
+    {
+      "id": "f2_dark_truth_torch",
+      "lines": [
+        "Clunk. Every light in the building, gone. Somewhere a whole floor of people says 'oh for God's sake' at once.",
+        "[worried] And security is on its way up for the janitor next to the switch.",
+        "Torch on. To the elevator. Quietly."
+      ]
+    },
+    {
+      "id": "f2_ryker_door",
+      "lines": [
+        "Ryker: Donnie? Is that you? Are you here to let me out?",
+        "Donnie: No.",
+        "Ryker: ...Worth asking."
+      ]
+    },
+    {
+      "id": "f2_security_stand_down",
+      "lines": [
+        "Security: Uh. Hi.",
+        "Security: So. Mr Liam just called. Says it was a false alarm. Fault at the plant.",
+        "Security: Sorry about the... you know. Chasing you round in the dark.",
+        "Donnie[angry]: Happens.",
+        "Security: Right. Well. As you were."
+      ]
+    }
+  ]
+}

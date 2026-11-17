@@ -1,0 +1,350 @@
+{
+  "_readme": "Floor 0 story text. PLACEHOLDER lines, replace with the real script. Keep the ids. A line may start with 'Name[expression]: '. Expressions: donnie neutral/worried/angry/shocked, dan neutral/tired/asleep/annoyed, ryker neutral/friendly/serious/shocked. Kidnappers: Yuvie, Adi, Irshad. A line with no name is Donnie thinking (his face shows; '[worried] text' sets his expression). Once someone else has spoken in an entry, use 'Donnie: ' to switch back to him.",
+  "entries": [
+    {
+      "id": "start",
+      "lines": [
+        "[neutral] Clocked in. The celebration over the weekend has made the place so dusty. Yesterday's cleaning wasn't enough.",
+        "Gear first. It's all in the janitor's closet, top left of the lobby."
+      ]
+    },
+    {
+      "id": "msg_betty",
+      "lines": [
+        "Off to school! Don't forget to eat lunch this time. Love you, Dad."
+      ]
+    },
+    {
+      "id": "cart_spawned",
+      "lines": [
+        "There she is. Cart, mop, bin bags. The glamorous life.",
+        "Dan's office has had a coffee spill since Monday. Might as well start there."
+      ]
+    },
+    {
+      "id": "closet_bin_done",
+      "lines": [
+        "Spare bin bags and a mop. I've got what I need."
+      ]
+    },
+    {
+      "id": "entrance_before",
+      "lines": [
+        "The main entrance. Shift's only just started. Eight more hours."
+      ]
+    },
+    {
+      "id": "entrance_after",
+      "lines": [
+        "[worried] The main entrance. I can't leave. Not without Betty."
+      ]
+    },
+    {
+      "id": "teach",
+      "lines": [
+        "{music:once:the_usual_suspects}I'm done. Dan's still teaching the new kid. I'll just... wring this mop out. Slowly.",
+        "Dan[tired]: Right. Let's start again.",
+        "Ryker[shocked]: Again?",
+        "Dan[annoyed]: Yes, again. Because apparently the first six times didn't take.",
+        "Ryker[friendly]: I've been taking notes!",
+        "Dan: You've drawn a dinosaur.",
+        "Ryker[serious]: That's unrelated.",
+        "Dan[tired]: Okay. One more time. This is a database. It stores information. In this case, employee records.",
+        "Ryker[friendly]: So it's like a filing cabinet.",
+        "Dan: Yes. A filing cabinet. Except it's digital, searchable, and doesn't give me a headache.",
+        "Ryker: Does it have drawers?",
+        "Dan[annoyed]: No, Ryker. It doesn't have fucking drawers.",
+        "Dan[tired]: Right. Say I want to see every employee in the company. I write: SELECT * FROM employees",
+        "Ryker[serious]: Why the star?",
+        "Dan: The star means everything. Every column. And employees is the table we're getting it from.",
+        "Ryker: Oh...",
+        "Dan[tired]: You know what? Just remember this. SELECT is what you want. Star means everything. FROM tells it where to look.",
+        "Ryker[friendly]: Got it.",
+        "Dan: Can we move on?",
+        "Ryker[serious]: So what's SQL?",
+        "Dan[annoyed]: Bro. SQL is the language we just used to talk to the database.",
+        "Ryker[friendly]: Why can't we use something normal? Like Sign Language!",
+        "Dan[annoyed]: No, Ryker. It doesn't speak Sign Language.",
+        "Dan[tired]: Anyway. What if I don't want everyone? Just certain people?",
+        "Ryker[friendly]: Then we ask nicely.",
+        "Dan[annoyed]: No. You use WHERE. SELECT * FROM employees WHERE role = 'Manager'",
+        "Ryker[shocked]: Oh! So it's like choosing who gets to be in the database?",
+        "Dan[tired]: No. They're already in the database. We're just filtering what we see. That query only shows employees whose role is Manager. Text goes in single quotes.",
+        "Ryker[serious]: Right, right. So if I put WHERE role = 'CEO'... I become the CEO?",
+        "Donnie: (Don't laugh. Don't laugh. Keep mopping.)"
+      ]
+    },
+    {
+      "id": "dan_busy",
+      "lines": [
+        "Not now, Raymond. I'm teaching. Allegedly."
+      ]
+    },
+    {
+      "id": "ryker_busy",
+      "lines": [
+        "Hi! Sorry. I'm learning databases. I think."
+      ]
+    },
+    {
+      "id": "dan_leaves",
+      "lines": [
+        "Dan[annoyed]: I'm going to start drinking before work.",
+        "Ryker[friendly]: Wait, I'll come too!",
+        "Dan[tired]: ...Of course you will."
+      ]
+    },
+    {
+      "id": "after_teaching",
+      "lines": [
+        "Dan left his computer logged in. Still got his little cheat sheet stuck to it.",
+        "Not my business."
+      ]
+    },
+    {
+      "id": "stairs_call",
+      "lines": [
+        "Unknown number. Nobody calls me during a shift.",
+        "Donnie: ...Hello?",
+        "Yuvie: Donald Raymond. Or Donnie as Betty likes to say.",
+        "Donnie[worried]: Who is this?",
+        "Yuvie: Somebody who needs you to stay very calm for the next minute.",
+        "Yuvie: Don't hang up. Don't walk anywhere. Just listen.",
+        "Yuvie: Your daughter didn't walk home from school today.",
+        "Donnie[shocked]: What?",
+        "Yuvie: Betty. Red hoodie. Brown backpack. She took the long way round. Past the old car park.",
+        "Yuvie: She's with us now.",
+        "Donnie[shocked]: No. No, no. Put her on. Put her on the phone right now.",
+        "Yuvie: She's fine. She stays fine. That part is up to you.",
+        "Donnie[angry]: If you lay one finger on her, I swear to God...",
+        "Adi: Nobody's touching her! She's eating tangy hot wings. She asked for them specifically.",
+        "Irshad: Those were mine.",
+        "Adi: She's a guest, Irshad.",
+        "Irshad: She's a hostage, Adi. You don't give the hostage my shit..",
+        "Adi: I didn't. I gave your wings.",
+        "Irshad: Yes I meant my wings not my actual... poo.",
+        "Adi: Reminds me. Lay off the peri peri. The van smells of smoke.",
+        "Yuvie: ...",
+        "Yuvie: I'm sorry about them, Donnie. Genuinely. It's been a long morning.",
+        "Yuvie: But don't mistake them for the whole operation. I'm the part you should worry about.",
+        "Yuvie: No police. No security. No 'quick word' with your supervisor. We'll know. We always know.",
+        "Donnie[worried]: ...What do you want from me?",
+        "Yuvie: Small things. To start.",
+        "Yuvie: The office you just cleaned. The computer in there is still logged in.",
+        "Irshad: There's a new face in that building. We want to know who.",
+        "Yuvie: You heard the man teaching the boy. Do what he said. Find the new one.",
+        "Donnie[worried]: I'm a janitor. I don't know anything about computers.",
+        "Yuvie: Then today's a learning day.",
+        "Donnie[worried]: Betty... Hang on, sweetheart. Okay. Okay. The computer."
+      ]
+    },
+    {
+      "id": "pc_before",
+      "lines": [
+        "Dan's computer. Still logged in. Not my business."
+      ]
+    },
+    {
+      "id": "pc_done",
+      "lines": [
+        "Ryker. The intern. Started this week."
+      ]
+    },
+    {
+      "id": "leave_office_call",
+      "lines": [
+        "They're calling again. Of course they are.",
+        "Yuvie: Well?",
+        "Donnie[worried]: The new one's an intern. Ryker. Started this week. Engineering, with Dan.",
+        "Irshad: An intern. Told you. Nobody important.",
+        "Yuvie: Everybody's important when they're new. Nobody knows their face yet.",
+        "Yuvie: That was good, Donnie. You follow orders. Betty will be glad to hear it.",
+        "Donnie[angry]: Let me talk to her.",
+        "Yuvie: When you've earned it.",
+        "Adi: She says hi, by the way.",
+        "Irshad: She said 'my dad is going to destroy you'.",
+        "Adi: Don't reveal that!",
+        "Irshad: Oh im sorry. uhh. she didn't say that!",
+        "Adi: He very much believes you now.",
+        "Yuvie: Both of you, out of the van.",
+        "Yuvie: Next job. Find a USB-C cable. Then go to the employee terminal on the front desk.",
+        "Donnie[worried]: A USB-C cable? Where am I supposed to find one of those?",
+        "Yuvie: You're the janitor. You know where everything in that building ends up.",
+        "Donnie[worried]: ...Right. Think, Donnie. Where would a cable be?"
+      ]
+    },
+    {
+      "id": "lounge_a",
+      "lines": [
+        "Is it Friday yet?",
+        "The coffee here is a war crime."
+      ]
+    },
+    {
+      "id": "lounge_b",
+      "lines": [
+        "Five more minutes. Then I'll look busy.",
+        "Have you tried the new chairs? Neither have I."
+      ]
+    },
+    {
+      "id": "lounge_usb_a",
+      "lines": [
+        "Why do vending machines sell USB-C cables now?",
+        "Saw Pete buy a cable from that vending machine. Beats the crisps."
+      ]
+    },
+    {
+      "id": "lounge_usb_b",
+      "lines": [
+        "The vending machine has cables now. And still no decent sandwich."
+      ]
+    },
+    {
+      "id": "vending_before",
+      "lines": [
+        "Crisps, energy drinks and... phone cables? Nothing I need right now."
+      ]
+    },
+    {
+      "id": "vending_no_coin",
+      "lines": [
+        "Crisps, energy drinks and... USB-C cables. Of course.",
+        "Coins only. I might have some in my locker, in the janitor's closet."
+      ]
+    },
+    {
+      "id": "vending_need_equip",
+      "lines": [
+        "Coin in hand first. (Number keys pick what I'm holding.)"
+      ]
+    },
+    {
+      "id": "vending_bought",
+      "lines": [
+        "One USB-C cable. The most expensive thing I've bought from a vending machine."
+      ]
+    },
+    {
+      "id": "vending_done",
+      "lines": [
+        "I've got my cable. The rest is snacks I can't afford."
+      ]
+    },
+    {
+      "id": "locker_default",
+      "lines": [
+        "My locker. Spare socks and a sandwich of unknown age."
+      ]
+    },
+    {
+      "id": "locker_coin",
+      "lines": [
+        "Spare socks, the sandwich... and a coin. Perfect."
+      ]
+    },
+    {
+      "id": "cable_call",
+      "lines": [
+        "Irshad: Got the cable?",
+        "Donnie: ...Yes.",
+        "Irshad: From the vending machine. We saw. Very dignified.",
+        "Donnie[angry]: You're watching me?",
+        "Yuvie: We're always watching you, Donnie. Keeps everyone honest.",
+        "Yuvie: We've sent you an app. KODEX. It's in your messages. Install it.",
+        "Yuvie: Plug your phone into the employee terminal. KODEX does the hard part. You learn the rest.",
+        "Adi: It's got a little book on the icon. I picked the icon.",
+        "Irshad: You downloaded the icon.",
+        "Adi: I picked which one to download.",
+        "Yuvie: One more thing. The receptionist doesn't leave that desk often. Wait for her to go.",
+        "Yuvie: If she sees you, you're just a nosy janitor. If she sees you twice, you're a problem. We don't like problems.",
+        "Donnie[worried]: ...Understood."
+      ]
+    },
+    {
+      "id": "msg_kidnappers",
+      "lines": [
+        "Install this. Don't ask questions. - Y"
+      ]
+    },
+    {
+      "id": "manual_installed",
+      "lines": [
+        "KODEX installed. Now the terminal, once the receptionist steps away."
+      ]
+    },
+    {
+      "id": "terminal_before",
+      "lines": [
+        "The employee terminal. Not for janitors."
+      ]
+    },
+    {
+      "id": "terminal_need_manual",
+      "lines": [
+        "I should check my messages first."
+      ]
+    },
+    {
+      "id": "terminal_need_cable",
+      "lines": [
+        "Cable in hand first, so I can plug in. (Number keys.)"
+      ]
+    },
+    {
+      "id": "caught",
+      "lines": [
+        "Receptionist: Excuse me! Away from the desk.",
+        "Receptionist: Snoop around here again and I'm raising a ticket. A big one."
+      ]
+    },
+    {
+      "id": "receptionist",
+      "lines": [
+        "Front desk. How can I not help you?",
+        "If it's not a ticket, it's not my problem.",
+        "Coffee break's at the usual time. Don't touch anything."
+      ]
+    },
+    {
+      "id": "receptionist_leaving",
+      "lines": [
+        "Coffee. Back in five."
+      ]
+    },
+    {
+      "id": "tutorial_done",
+      "lines": [
+        "Clearance for Floor 1. The elevator should take me up now.",
+        "Hang on, Betty."
+      ]
+    },
+    {
+      "id": "elevator_hint",
+      "lines": [
+        "Floor 1's open. The elevator's at the top of the lobby."
+      ]
+    },
+    {
+      "id": "npc_hall_a",
+      "lines": [
+        "Morning, Donnie.",
+        "These quarterly reports won't file themselves. Sadly."
+      ]
+    },
+    {
+      "id": "npc_hall_b",
+      "lines": [
+        "Is the printer on this floor broken again?",
+        "Don't mop near me, I've got new shoes."
+      ]
+    },
+    {
+      "id": "npc_hall_c",
+      "lines": [
+        "Meeting about the meeting at ten.",
+        "If anyone asks, I'm in a call."
+      ]
+    }
+  ]
+}

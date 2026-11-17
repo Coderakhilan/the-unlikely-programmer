@@ -1,0 +1,27 @@
+{
+  "id": "f0_reception_roster",
+  "title": "RECEPTION - STAFF LIST",
+  "brief": "The front desk keeps a staff list. Find the NAMES of everyone who works in Reception. Only the name column, nothing else.",
+  "successMessage": "Maya and Pete are at the front desk. Maya just left for coffee.",
+  "rewardFlag": "f0_reception_solved",
+  "orderMatters": false,
+  "tables": [
+    {
+      "name": "employees",
+      "columns": ["id", "name", "department", "floor"],
+      "rows": [
+        { "cells": ["1", "Dan", "Engineering", "0"] },
+        { "cells": ["2", "Maya", "Reception", "0"] },
+        { "cells": ["3", "Pete", "Reception", "0"] },
+        { "cells": ["4", "Ryker", "Intern", "0"] },
+        { "cells": ["5", "Linda", "Administration", "1"] },
+        { "cells": ["6", "Omar", "Administration", "1"] },
+        { "cells": ["7", "Sofia", "Human Resources", "2"] }
+      ]
+    }
+  ],
+  "expectedRows": [
+    { "cells": ["Maya"] },
+    { "cells": ["Pete"] }
+  ]
+}

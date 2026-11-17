@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 9821d5c36210f7f43978438d64b80a23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7864901504685201976
+    second: char_donnie_tray_0
+  - first:
+      213: 6566053832585175410
+    second: char_donnie_tray_1
+  - first:
+      213: -1072407320646953593
+    second: char_donnie_tray_2
+  - first:
+      213: 8027874346782660344
+    second: char_donnie_tray_3
+  - first:
+      213: -6938397253417292501
+    second: char_donnie_tray_4
+  - first:
+      213: 6259937308447586760
+    second: char_donnie_tray_5
+  - first:
+      213: -1827317769601657263
+    second: char_donnie_tray_6
+  - first:
+      213: 6625371058250295242
+    second: char_donnie_tray_7
+  - first:
+      213: 6479252714126608569
+    second: char_donnie_tray_8
+  - first:
+      213: -5772469737933185104
+    second: char_donnie_tray_9
+  - first:
+      213: -4449718675185965654
+    second: char_donnie_tray_10
+  - first:
+      213: -7708444808892881121
+    second: char_donnie_tray_11
+  - first:
+      213: -1350202649177883158
+    second: char_donnie_tray_12
+  - first:
+      213: 4141876418323755973
+    second: char_donnie_tray_13
+  - first:
+      213: 1327118434532310153
+    second: char_donnie_tray_14
+  - first:
+      213: 70104350022515870
+    second: char_donnie_tray_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: char_donnie_tray_down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db45d1a511914054b80212defc41c2eb
+      internalID: 1708037958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_down_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 363
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbdec333b12c044bbda34074fa83179
+      internalID: 417904406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_down_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 363
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effb54fed2068844eac52fcca5672df3
+      internalID: 897046966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_down_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 363
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21962356f9256b469cf3e0da0798682
+      internalID: 1343336560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10efb08245e02143854b36e94dc86b6
+      internalID: 1298322324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_up_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 242
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91788d8041046849b36dc353548424c
+      internalID: -1578233891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_up_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 242
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e52f6542aeb844d8dbc16af1bd8c6e
+      internalID: 1615518587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_up_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 242
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c5617718c90684ea0eaed00e88ce8c
+      internalID: 1243836420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a713f4e5aa489cd45a2dab019a4cc8f9
+      internalID: 291885264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_left_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 121
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3701716ec86f55478a24be0b8f08fba
+      internalID: -1056628017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_left_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 121
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae9b68bb529e4f40a9dcedb98926ad2
+      internalID: -1641384591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_left_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 121
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9c52d60e3bc4c479c74fee6461b34e
+      internalID: 204971900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5fdf5f4358c164d8fe32902a0f73bd
+      internalID: -157535601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_right_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1901151176dcaaf4e810853d0e3394c4
+      internalID: 1105769146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_right_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1328c330cbb41884cac7cf9eddb26492
+      internalID: 640332334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_tray_right_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 113
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e71fcadce1ace24eb265687fc36ee81
+      internalID: 331172365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6d3ba6867293f594ea6f4c6b5ba42194
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      char_donnie_tray_0: -7864901504685201976
+      char_donnie_tray_1: 6566053832585175410
+      char_donnie_tray_10: -4449718675185965654
+      char_donnie_tray_11: -7708444808892881121
+      char_donnie_tray_12: -1350202649177883158
+      char_donnie_tray_13: 4141876418323755973
+      char_donnie_tray_14: 1327118434532310153
+      char_donnie_tray_15: 70104350022515870
+      char_donnie_tray_2: -1072407320646953593
+      char_donnie_tray_3: 8027874346782660344
+      char_donnie_tray_4: -6938397253417292501
+      char_donnie_tray_5: 6259937308447586760
+      char_donnie_tray_6: -1827317769601657263
+      char_donnie_tray_7: 6625371058250295242
+      char_donnie_tray_8: 6479252714126608569
+      char_donnie_tray_9: -5772469737933185104
+      char_donnie_tray_down_0: 1708037958
+      char_donnie_tray_down_1: 417904406
+      char_donnie_tray_down_2: 897046966
+      char_donnie_tray_down_3: 1343336560
+      char_donnie_tray_left_0: 291885264
+      char_donnie_tray_left_1: -1056628017
+      char_donnie_tray_left_2: -1641384591
+      char_donnie_tray_left_3: 204971900
+      char_donnie_tray_right_0: -157535601
+      char_donnie_tray_right_1: 1105769146
+      char_donnie_tray_right_2: 640332334
+      char_donnie_tray_right_3: 331172365
+      char_donnie_tray_up_0: 1298322324
+      char_donnie_tray_up_1: -1578233891
+      char_donnie_tray_up_2: 1615518587
+      char_donnie_tray_up_3: 1243836420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

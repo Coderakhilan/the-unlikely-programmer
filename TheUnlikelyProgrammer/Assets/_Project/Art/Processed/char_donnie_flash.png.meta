@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 420a1242dbd7a0d43a4e838394a964cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8663117858969250013
+    second: char_donnie_flash_0
+  - first:
+      213: 8126651490096489950
+    second: char_donnie_flash_1
+  - first:
+      213: -6267193093795555900
+    second: char_donnie_flash_2
+  - first:
+      213: -872083528657636857
+    second: char_donnie_flash_3
+  - first:
+      213: 343758368219343336
+    second: char_donnie_flash_4
+  - first:
+      213: 3946343614917164309
+    second: char_donnie_flash_5
+  - first:
+      213: -2133958164708947348
+    second: char_donnie_flash_6
+  - first:
+      213: -2220762015496905844
+    second: char_donnie_flash_7
+  - first:
+      213: 7446773011619938817
+    second: char_donnie_flash_8
+  - first:
+      213: 864343776243296873
+    second: char_donnie_flash_9
+  - first:
+      213: -7635540963962078388
+    second: char_donnie_flash_10
+  - first:
+      213: 139564551297075030
+    second: char_donnie_flash_11
+  - first:
+      213: -5364184034657531371
+    second: char_donnie_flash_12
+  - first:
+      213: 6280365190837721297
+    second: char_donnie_flash_13
+  - first:
+      213: -3103160235509865226
+    second: char_donnie_flash_14
+  - first:
+      213: -7340093898984182003
+    second: char_donnie_flash_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: char_donnie_flash_down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a7dadeca77ded46bb3e81d2a15d2d8
+      internalID: -1144588930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_down_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 342
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38927963336ba9a4394ed2b1e597baaa
+      internalID: 880068922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_down_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 342
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73007c5c894ec24884d6c1f6c0facd5
+      internalID: -2068442993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_down_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 342
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf3d13e29151c6479d876ca501823c3
+      internalID: 826971096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a0c86aa0e7a35409b38e76ba3a5fb6
+      internalID: 1379114301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_up_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 228
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f24c5f2db742054890d8906990bbb4a
+      internalID: -2064213697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_up_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 228
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214313c7fdede844b5f738140de5b56
+      internalID: 978790065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_up_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 228
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bb62f7b9de88943b2d30eefaa5ad1e
+      internalID: -1219486638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a3dbecdd73e204abe7b76d768b3371
+      internalID: 565274223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_left_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 114
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a46d9fa12106f44da4de53b221a6a55
+      internalID: -1861699022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_left_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 114
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b14f8ac1e9f3a7429adb238869b0621
+      internalID: 251908167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_left_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 114
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22ae07b7c9b97247aa6f47f739f7eb5
+      internalID: -1454038566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc24d0d94448b0a4b93e745fd3b4a79b
+      internalID: 213822848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_right_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020a0a4cbc159b24b9795b3dc5d9c6c2
+      internalID: 187585360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_right_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20214618993a904881ade712dc9d261
+      internalID: 135445177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_donnie_flash_right_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 67
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaf61925cee88c438a2f3fa6059b7fb
+      internalID: 1636331145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 701ccad4b6751c74fab158fb327c1a4e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      char_donnie_flash_0: -8663117858969250013
+      char_donnie_flash_1: 8126651490096489950
+      char_donnie_flash_10: -7635540963962078388
+      char_donnie_flash_11: 139564551297075030
+      char_donnie_flash_12: -5364184034657531371
+      char_donnie_flash_13: 6280365190837721297
+      char_donnie_flash_14: -3103160235509865226
+      char_donnie_flash_15: -7340093898984182003
+      char_donnie_flash_2: -6267193093795555900
+      char_donnie_flash_3: -872083528657636857
+      char_donnie_flash_4: 343758368219343336
+      char_donnie_flash_5: 3946343614917164309
+      char_donnie_flash_6: -2133958164708947348
+      char_donnie_flash_7: -2220762015496905844
+      char_donnie_flash_8: 7446773011619938817
+      char_donnie_flash_9: 864343776243296873
+      char_donnie_flash_down_0: -1144588930
+      char_donnie_flash_down_1: 880068922
+      char_donnie_flash_down_2: -2068442993
+      char_donnie_flash_down_3: 826971096
+      char_donnie_flash_left_0: 565274223
+      char_donnie_flash_left_1: -1861699022
+      char_donnie_flash_left_2: 251908167
+      char_donnie_flash_left_3: -1454038566
+      char_donnie_flash_right_0: 213822848
+      char_donnie_flash_right_1: 187585360
+      char_donnie_flash_right_2: 135445177
+      char_donnie_flash_right_3: 1636331145
+      char_donnie_flash_up_0: 1379114301
+      char_donnie_flash_up_1: -2064213697
+      char_donnie_flash_up_2: 978790065
+      char_donnie_flash_up_3: -1219486638
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

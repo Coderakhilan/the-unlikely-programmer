@@ -1,0 +1,75 @@
+{
+ "id": "f2_t4_locks",
+ "title": "Door locks",
+ "brief": "KODEX: HR's door lock list. The interview room locks from the outside, so nobody walks out of a tough interview.\n\nShow room and code for the 'Interview room' whose status is NOT 'expired'.",
+ "successMessage": "Interview room lock code: 7341. It locks from the outside. That could be very useful.",
+ "rewardFlag": "f2_t4_locks_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "hot.desk.4",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "door_locks",
+   "columns": [
+    "room",
+    "code",
+    "lock_side",
+    "status"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "Interview room",
+      "5150",
+      "outside",
+      "expired"
+     ]
+    },
+    {
+     "cells": [
+      "Interview room",
+      "7341",
+      "outside",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "Breaker room",
+      "----",
+      "inside",
+      "login only"
+     ]
+    },
+    {
+     "cells": [
+      "Conference room",
+      "2020",
+      "inside",
+      "active"
+     ]
+    },
+    {
+     "cells": [
+      "Head of HR's office",
+      "0001",
+      "inside",
+      "active"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Interview room",
+    "7341"
+   ]
+  }
+ ]
+}

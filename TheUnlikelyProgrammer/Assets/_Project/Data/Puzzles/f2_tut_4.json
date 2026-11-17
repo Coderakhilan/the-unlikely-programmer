@@ -1,0 +1,151 @@
+{
+ "id": "f2_tut_4",
+ "title": "Lesson 4 · LEFT JOIN",
+ "brief": "JOIN drops rows with no match. LEFT JOIN keeps every row of the first table, with NULL where nothing matched.\n\nTry it: show every department's dept_name with the name of anyone in it, including empty departments.\n(FROM departments LEFT JOIN employees ...)",
+ "successMessage": "OK.",
+ "rewardFlag": "f2_tut_4_done",
+ "orderMatters": false,
+ "unlocksLessons": "leftjoin",
+ "note": "",
+ "user": "maint-0009",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "employees",
+   "columns": [
+    "id",
+    "name",
+    "dept_id"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Sofia Mendes",
+      "10"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Ines Vidal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Marta Quinn",
+      "30"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Owen Pike",
+      "40"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Bram Kowal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "New Starter",
+      "NULL"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "departments",
+   "columns": [
+    "id",
+    "dept_name",
+    "floor"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "10",
+      "Human Resources",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "People & Facilities",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Reception",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "Executive Office",
+      "3"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Server Operations",
+      "3"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Human Resources",
+    "Sofia Mendes"
+   ]
+  },
+  {
+   "cells": [
+    "People & Facilities",
+    "Ines Vidal"
+   ]
+  },
+  {
+   "cells": [
+    "People & Facilities",
+    "Bram Kowal"
+   ]
+  },
+  {
+   "cells": [
+    "Reception",
+    "Marta Quinn"
+   ]
+  },
+  {
+   "cells": [
+    "Executive Office",
+    "Owen Pike"
+   ]
+  },
+  {
+   "cells": [
+    "Server Operations",
+    "NULL"
+   ]
+  }
+ ]
+}

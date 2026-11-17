@@ -1,0 +1,83 @@
+{
+ "id": "f1_c_invoices",
+ "title": "Vendor V-207",
+ "brief": "KODEX: The slip you found says the electricians, Voltline Electrical, are vendor V-207.\n\nShow every column for invoices from vendor_id 'V-207' that are 'unpaid'.",
+ "successMessage": "Voltline's power bill isn't Admin's: it goes to People & Facilities. And Priya's door code is 5590.",
+ "rewardFlag": "f1_c_invoices_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "omar.haddad",
+ "needsFlag": "searched_f1_se_drawer",
+ "briefMissing": "KODEX: Accounts pays the contractors. To find the electricians' bills you need their vendor ID, and it isn't on this computer.\n\nIt's probably written down somewhere on this floor.",
+ "tables": [
+  {
+   "name": "invoices",
+   "columns": [
+    "invoice",
+    "vendor_id",
+    "amount",
+    "status",
+    "memo"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "INV-3290",
+      "V-207",
+      "4200",
+      "paid",
+      "Office E lighting call-out."
+     ]
+    },
+    {
+     "cells": [
+      "INV-3307",
+      "V-207",
+      "18400",
+      "unpaid",
+      "Building power + generator service. NOT OURS: forward to People & Facilities (HR). Priya - your door code is 5590 now."
+     ]
+    },
+    {
+     "cells": [
+      "INV-3311",
+      "V-115",
+      "640",
+      "unpaid",
+      "Coffee machine. Again."
+     ]
+    },
+    {
+     "cells": [
+      "INV-3315",
+      "V-031",
+      "2150",
+      "unpaid",
+      "Chairs nobody has sat in."
+     ]
+    },
+    {
+     "cells": [
+      "INV-3318",
+      "V-207",
+      "950",
+      "paid",
+      "Lift inspection."
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "INV-3307",
+    "V-207",
+    "18400",
+    "unpaid",
+    "Building power + generator service. NOT OURS: forward to People & Facilities (HR). Priya - your door code is 5590 now."
+   ]
+  }
+ ]
+}

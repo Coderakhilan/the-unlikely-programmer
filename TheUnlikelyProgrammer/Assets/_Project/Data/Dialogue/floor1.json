@@ -1,0 +1,356 @@
+{
+  "_readme": "Floor 1 (Administration) text. Same rules as floor0.json: keep the ids; 'Name[expression]: ' sets the speaker; a line with no name is Donnie thinking. People without portraits (Linda, Ken, Joey, Omar, Tomas...) still get a name plate.",
+  "entries": [
+    {
+      "id": "f1_arrive",
+      "lines": [
+        "Administration. The Shitshow of Gyaracorp."
+      ]
+    },
+    {
+      "id": "f1_arrival_call",
+      "lines": [
+        "Yuvie: Floor one. Administration. Feels like progress, doesn't it?",
+        "Donnie[worried]: Is Betty okay?",
+        "Adi: She's fine! She beat Irshad at cards. Four times.",
+        "Irshad: She cheats.",
+        "Adi: She's a child, Irshad.",
+        "Irshad: A child who cheats.",
+        "Yuvie: Here's the job. Somebody in that building controls the power. The mains, the backup generator, all of it. We want to know who, and where.",
+        "Yuvie: Administration keeps the paperwork for everything. Read it.",
+        "Donnie[worried]: And the next terminal?",
+        "Irshad: Meeting room. Same floor. Good luck getting in.",
+        "Yuvie: One more thing. People get funny about janitors near their desks. Push your cart. Nobody looks twice at a man with a mop.",
+        "Donnie: ...There'll be a cart in the closet on this floor. Bottom left."
+      ]
+    },
+    {
+      "id": "f1_bin",
+      "lines": [
+        "Same gear as downstairs. Cart, mop, bin bags. Nobody looks twice at the cart."
+      ]
+    },
+    {
+      "id": "f1_bin_done",
+      "lines": [
+        "I've got my cart."
+      ]
+    },
+    {
+      "id": "f1_sw_drawer",
+      "lines": [
+        "A key tagged 'OFFICE A - spare (Grace)'."
+      ]
+    },
+    {
+      "id": "f1_se_drawer",
+      "lines": [
+        "A crumpled slip: 'Voltline Electrical - vendor ID V-207. CHASE THE INVOICE.'",
+        "Voltline. That's the power people. I'll hang on to this."
+      ]
+    },
+    {
+      "id": "f1_b_drawer",
+      "lines": [
+        "Joey's drawer. Three packets of indigestion tablets, a fourth packet, and a key labelled 'Office C (spare)'."
+      ]
+    },
+    {
+      "id": "f1_d_drawer",
+      "lines": [
+        "Priya's drawer. Biscuits, sorted by colour. I'm not touching that."
+      ]
+    },
+    {
+      "id": "f1_e_shelf",
+      "lines": [
+        "Behind a row of binders called 'BINDERS': a key on a tag. 'OFFICE F'."
+      ]
+    },
+    {
+      "id": "f1_locker_unknown",
+      "lines": [
+        "A shelf of mugs, board games and a dying cactus. Nothing I'm after. I think."
+      ]
+    },
+    {
+      "id": "f1_locker",
+      "lines": [
+        "Top shelf, behind the mugs: a spare key tagged 'MANAGER - L. PARK'. And a single sad orange."
+      ]
+    },
+    {
+      "id": "f1_m_shelf",
+      "lines": [
+        "Manager Linda's shelf. Binders, alphabetised and colour-coded. Frightening."
+      ]
+    },
+    {
+      "id": "f1_toilet",
+      "lines": [
+        "A cubicle. I clean these. I don't linger."
+      ]
+    },
+    {
+      "id": "f1_searched",
+      "lines": [
+        "Nothing else in there for me."
+      ]
+    },
+    {
+      "id": "f1_pc_sw_done",
+      "lines": [
+        "Linda and Ken. All day. In the one room with the terminal. Brilliant."
+      ]
+    },
+    {
+      "id": "f1_pc_se_done",
+      "lines": [
+        "2468 for Office E. The electrician's code. Into the pocket it goes.",
+        "Escalated to Floor 2? Why would the HR floor deal with the lights down here?",
+        "[worried] Maybe it's just paperwork. There's got to be a switch on this floor somewhere."
+      ]
+    },
+    {
+      "id": "f1_pc_a_done",
+      "lines": [
+        "Office B: 3172. Joey's office."
+      ]
+    },
+    {
+      "id": "f1_pc_b_done",
+      "lines": [
+        "Facilities moved to HR and changed their name. And Joey has a... reputation. Ken has a spreadsheet.",
+        "People & Facilities. Funny name for a department that runs the lifts."
+      ]
+    },
+    {
+      "id": "f1_pc_c_done",
+      "lines": [
+        "Admin keeps bouncing the power bill to HR. And Office D is 5590.",
+        "[worried] If Admin doesn't pay for the power, who flips the switch? Maybe somebody down here still can."
+      ]
+    },
+    {
+      "id": "f1_pc_d_done",
+      "lines": [
+        "People & Facilities pays for the power. Cost centre PF-02. I'll keep the printout.",
+        "Floor two pays the bill. That doesn't mean floor two holds the switch. Does it?"
+      ]
+    },
+    {
+      "id": "f1_pc_e_done",
+      "lines": [
+        "Electrical plans and the generator manual. Both moved up to HR.",
+        "[worried] Everything keeps pointing upstairs. Manager Linda would know for sure."
+      ]
+    },
+    {
+      "id": "f1_pc_f_done",
+      "lines": [
+        "Manager Linda's spare key is on the shelf in the lounge."
+      ]
+    },
+    {
+      "id": "f1_pc_m_done",
+      "lines": [
+        "Main power. Backup generator. People & Facilities, Plant room 2B. Floor two.",
+        "There's no switch down here. There never was. Admin doesn't control the power at all. Human Resources does.",
+        "[worried] And I'm the one who has to tell them that.",
+        "...",
+        "[shocked] What's that sound? A whirring. Coming from Manager Linda's shelf.",
+        "Something on that shelf is... recording?"
+      ]
+    },
+    {
+      "id": "f1_tape_found",
+      "lines": [
+        "Manager Linda's tape recorder, tucked between the binders. Still running. She records every meeting.",
+        "The tape's labelled 'MINUTES - JOEY (DO NOT PLAY)'.",
+        "...Let me play it.",
+        "[shocked] It's Joey. On the loo. For eleven minutes.",
+        "[angry] Why is Linda recording a man on the toilet? Gyaracorp's finest have hit a new low just to kill time.",
+        "Joey goes to the loo more than anyone alive. The whole floor knows it. Ken has a fucking spreadsheet.",
+        "If this came out of the gents' cubicle at full volume... Linda and Ken would want a front-row seat.",
+        "[neutral] The end cubicle in the men's washroom it is."
+      ]
+    },
+    {
+      "id": "f1_gag",
+      "lines": [
+        "Into the end cubicle, volume all the way up, and... play.",
+        "A long, tragic groan echoes off every tile in the room.",
+        "Ken: ...Linda. Linda, listen.",
+        "Linda: Oh, he's back. That's five today.",
+        "Ken: That's not a bathroom break. That's a hostage situation.",
+        "Linda: We should... check he's alright.",
+        "Ken: Bring your phone. For the minutes.",
+        "Linda: For the minutes.",
+        "Donnie: ...And the meeting room is empty."
+      ]
+    },
+    {
+      "id": "f1_wait_linda",
+      "lines": [
+        "Joey? ...Joey, are you alright in there?",
+        "Take your time! We're not... listening."
+      ]
+    },
+    {
+      "id": "f1_wait_ken",
+      "lines": [
+        "Shh. I'm timing it.",
+        "Personal best, this."
+      ]
+    },
+    {
+      "id": "f1_meeting_locked",
+      "lines": [
+        "Through the glass: Manager Linda and Ken, deep in the quarterly review. I'm not walking in there."
+      ]
+    },
+    {
+      "id": "f1_terminal_done",
+      "lines": [
+        "Clearance for Human Resources. Any time I like, now. Not just after hours.",
+        "[worried] Now I just have to tell them what I found."
+      ]
+    },
+    {
+      "id": "f1_decision_call",
+      "lines": [
+        "Yuvie: Well? Who runs the power, Donnie?"
+      ]
+    },
+    {
+      "id": "f1_decision_prompt",
+      "lines": [
+        "[worried] (Tell them the truth?)"
+      ]
+    },
+    {
+      "id": "f1_choice_truth",
+      "lines": [
+        "Truth: Human Resources. Plant room 2B, on floor two."
+      ]
+    },
+    {
+      "id": "f1_choice_lie",
+      "lines": [
+        "Lie: Administration. A riser cupboard, down here."
+      ]
+    },
+    {
+      "id": "f1_truth",
+      "lines": [
+        "Donnie[worried]: Human Resources. They call it People & Facilities now. Plant room 2B, floor two.",
+        "Yuvie: See? That wasn't hard.",
+        "Irshad: HR. Of course it's HR. It's always HR.",
+        "Adi: Betty says you're doing a good job. Well. She said 'my dad's going to find you'. Same energy.",
+        "Yuvie: Get yourself upstairs, Donnie. We'll call."
+      ]
+    },
+    {
+      "id": "f1_lie",
+      "lines": [
+        "Donnie: Administration runs it. There's a riser cupboard down here. That's where the mains are.",
+        "Yuvie: ...",
+        "Yuvie: A cupboard. On the admin floor.",
+        "Donnie[worried]: That's what the records say.",
+        "Irshad: The records in Linda Park's office? That you were in twenty minutes ago?",
+        "Donnie[shocked]: How do you...",
+        "Yuvie: You think you're alone in that building, Donnie? We have someone keeping an eye on you. Closer than you'd like.",
+        "Yuvie: So let's try that again some other time. And next time, Betty hears about it first.",
+        "Adi: ...He means it. Sorry, Donnie."
+      ]
+    },
+    {
+      "id": "guard_sw",
+      "lines": [
+        "Can I help you? That's my desk.",
+        "Bins are over there, mate.",
+        "Hands off. I've got unsaved work."
+      ]
+    },
+    {
+      "id": "guard_se",
+      "lines": [
+        "Excuse me. Do you mind?",
+        "Mop the floor, not my keyboard.",
+        "Again? Seriously?"
+      ]
+    },
+    {
+      "id": "guard_c",
+      "lines": [
+        "Omar: That's an Accounts machine.",
+        "Omar: If my stapler goes missing, I'm calling HR.",
+        "Omar: Out. Please. Out."
+      ]
+    },
+    {
+      "id": "guard_f",
+      "lines": [
+        "Tomas: Procurement only, sorry.",
+        "Tomas: I'm on a supplier call. Shoo.",
+        "Tomas: Every time."
+      ]
+    },
+    {
+      "id": "npc_omar",
+      "lines": [
+        "Someone's been taking my stapler.",
+        "Invoices don't pay themselves. Unfortunately."
+      ]
+    },
+    {
+      "id": "npc_tomas",
+      "lines": [
+        "Fourteen quotes for one chair. FOURTEEN.",
+        "If it's a delivery, it goes to Reception."
+      ]
+    },
+    {
+      "id": "npc_sw",
+      "lines": [
+        "Quarterly review today. Manager Linda's in a mood.",
+        "I hear Joey's been in the gents since nine."
+      ]
+    },
+    {
+      "id": "npc_se",
+      "lines": [
+        "My lights keep flickering. Ticket's been open for a month.",
+        "Facilities moved to HR, apparently. Nobody told the lights."
+      ]
+    },
+    {
+      "id": "npc_joey",
+      "lines": [
+        "Joey: If anyone asks, I'm at my desk.",
+        "Joey: Meetings make me nervous. My stomach takes it personally.",
+        "Joey: Don't use the end cubicle. Trust me."
+      ]
+    },
+    {
+      "id": "npc_lounge",
+      "lines": [
+        "Joey's been in here since nine. He says he's 'hot-desking'.",
+        "The coffee machine's leaking again."
+      ]
+    },
+    {
+      "id": "npc_f1_hall_a",
+      "lines": [
+        "Manager Linda's doing the quarterly review. Nobody go in there.",
+        "Administration: if it's not in triplicate, it didn't happen."
+      ]
+    },
+    {
+      "id": "npc_f1_hall_b",
+      "lines": [
+        "Is that the janitor? Good. Someone's been sick in the lift. Probably Joey."
+      ]
+    }
+  ]
+}

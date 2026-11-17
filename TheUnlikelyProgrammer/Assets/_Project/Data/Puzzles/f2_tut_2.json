@@ -1,0 +1,145 @@
+{
+ "id": "f2_tut_2",
+ "title": "Lesson 2 · JOIN",
+ "brief": "JOIN glues two tables together, row by row, wherever the keys match:\nSELECT ... FROM employees JOIN departments ON employees.dept_id = departments.id\nWrite table.column when both tables have a column with that name.\n\nTry it: show each employee's name with their dept_name.",
+ "successMessage": "OK.",
+ "rewardFlag": "f2_tut_2_done",
+ "orderMatters": false,
+ "unlocksLessons": "join",
+ "note": "",
+ "user": "maint-0009",
+ "needsFlag": "",
+ "briefMissing": "",
+ "clues": [],
+ "tables": [
+  {
+   "name": "employees",
+   "columns": [
+    "id",
+    "name",
+    "dept_id"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "1",
+      "Sofia Mendes",
+      "10"
+     ]
+    },
+    {
+     "cells": [
+      "2",
+      "Ines Vidal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "3",
+      "Marta Quinn",
+      "30"
+     ]
+    },
+    {
+     "cells": [
+      "4",
+      "Owen Pike",
+      "40"
+     ]
+    },
+    {
+     "cells": [
+      "5",
+      "Bram Kowal",
+      "20"
+     ]
+    },
+    {
+     "cells": [
+      "6",
+      "New Starter",
+      "NULL"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "departments",
+   "columns": [
+    "id",
+    "dept_name",
+    "floor"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "10",
+      "Human Resources",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "20",
+      "People & Facilities",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "30",
+      "Reception",
+      "2"
+     ]
+    },
+    {
+     "cells": [
+      "40",
+      "Executive Office",
+      "3"
+     ]
+    },
+    {
+     "cells": [
+      "50",
+      "Server Operations",
+      "3"
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "Sofia Mendes",
+    "Human Resources"
+   ]
+  },
+  {
+   "cells": [
+    "Ines Vidal",
+    "People & Facilities"
+   ]
+  },
+  {
+   "cells": [
+    "Marta Quinn",
+    "Reception"
+   ]
+  },
+  {
+   "cells": [
+    "Owen Pike",
+    "Executive Office"
+   ]
+  },
+  {
+   "cells": [
+    "Bram Kowal",
+    "People & Facilities"
+   ]
+  }
+ ]
+}

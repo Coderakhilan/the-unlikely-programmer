@@ -1,0 +1,100 @@
+{
+ "id": "f1_se_tickets",
+ "title": "Anything electrical?",
+ "brief": "KODEX: They want to know who runs the building's power. The helpdesk queue is a start.\n\nShow every column for tickets on floor 1 with category 'Electrical' that are still 'Open'.",
+ "successMessage": "Ticket T-114: flickering lights in Office E. The electrician's door code was left in the notes: 2468.",
+ "rewardFlag": "f1_se_tickets_solved",
+ "orderMatters": false,
+ "unlocksLessons": "",
+ "note": "",
+ "user": "shared.desk.se",
+ "needsFlag": "",
+ "briefMissing": "",
+ "tables": [
+  {
+   "name": "helpdesk",
+   "columns": [
+    "ticket",
+    "floor",
+    "room",
+    "category",
+    "status",
+    "notes"
+   ],
+   "rows": [
+    {
+     "cells": [
+      "T-101",
+      "1",
+      "Lounge",
+      "Plumbing",
+      "Open",
+      "Coffee machine leaking. Again."
+     ]
+    },
+    {
+     "cells": [
+      "T-108",
+      "1",
+      "Office B",
+      "Electrical",
+      "Closed",
+      "Desk lamp. It was unplugged."
+     ]
+    },
+    {
+     "cells": [
+      "T-114",
+      "1",
+      "Office E",
+      "Electrical",
+      "Open",
+      "Lights flicker. Electrician access code for Office E: 2468. Escalated to People & Facilities (Floor 2)."
+     ]
+    },
+    {
+     "cells": [
+      "T-117",
+      "2",
+      "Plant room 2B",
+      "Electrical",
+      "Open",
+      "Generator test overdue."
+     ]
+    },
+    {
+     "cells": [
+      "T-120",
+      "1",
+      "Office D",
+      "IT",
+      "Open",
+      "Printer 'possessed'."
+     ]
+    },
+    {
+     "cells": [
+      "T-121",
+      "1",
+      "Washroom",
+      "Plumbing",
+      "Open",
+      "Joey."
+     ]
+    }
+   ]
+  }
+ ],
+ "expectedRows": [
+  {
+   "cells": [
+    "T-114",
+    "1",
+    "Office E",
+    "Electrical",
+    "Open",
+    "Lights flicker. Electrician access code for Office E: 2468. Escalated to People & Facilities (Floor 2)."
+   ]
+  }
+ ]
+}
